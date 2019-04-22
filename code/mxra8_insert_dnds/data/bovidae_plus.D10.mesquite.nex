@@ -1,0 +1,391 @@
+#NEXUS
+[written Mon Apr 15 13:54:52 EDT 2019 by Mesquite  version 3.10 (build 765) at qfwfq/172.26.125.113]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=43;
+	TAXLABELS
+		'Cervus_elaphus_unit45' 'Muntiacus_muntjak_unit45' 'Moschus_berezovskii_unit45' 'Ovis_orientalis_unit45' 'Pseudois_nayaur_unit45' 'Capra_sibirica_unit45' 'Tragelaphus_angasii_unit45' 'Tragelaphus_angasii_unit12' 'Tragelaphus_angasii_unit3' 'Tragelaphus_oryx_unit45' 'Tragelaphus_oryx_unit12' 'Tragelaphus_oryx_unit3' 'Tragelaphus_imberbis_unit45' 'Tragelaphus_imberbis_unit12' 'Tragelaphus_imberbis_unit3' 'Bison_bonasus_unit45' 'Bison_bonasus_unit1' 'Bison_bonasus_unit2' 'Bison_bonasus_unit3' 'Bos_gaurus_unit45' 'Bos_gaurus_unit1' 'Bos_gaurus_unit3' 'Bos_gaurus_unit2' 'Bos_primagenius_unit45' 'Bos_primagenius_unit1' 'Bos_primagenius_unit2' 'Bos_primagenius_unit3' 'Bos_javanicus_unit45' 'Bos_javanicus_unit1' 'Bos_javanicus_unit2' 'Bos_javanicus_unit3' 'Bison_bison_unit45' 'Bison_bison_unit1' 'Bison_bison_unit2' 'Bison_bison_unit3' 'Bos_grunniens_unit45' 'Bos_grunniens_unit1' 'Bos_grunniens_unit2' 'Bos_grunniens_unit3' 'Bubalus_bubalis_unit45' 'Bubalus_bubalis_unit1' 'Syncerus_caffer_unit45' 'Syncerus_caffer_unit1' 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	DIMENSIONS  NCHAR=30;
+	FORMAT DATATYPE = DNA GAP = - MISSING = ?;
+	MATRIX
+	'Cervus_elaphus_unit45'      GGCAAGCAGCGCGTGTACGAGCCGCGCGAC
+	'Muntiacus_muntjak_unit45'   GGCAAGCAGCGCGTGTACGAATCGCGCGAC
+	'Moschus_berezovskii_unit45' GGCGAGCAGCGCGTGTACGAGCCGCGCGAC
+	'Ovis_orientalis_unit45'     GGCGAGCAGCGCGTGTACGAGCCGCGCGAC
+	'Pseudois_nayaur_unit45'     GGCGAGCAGCGCGTGTACGAGCCGCGCGAC
+	'Capra_sibirica_unit45'      GGCGAGCAGCGCGTGTACGAGCCGCGCGAC
+	'Tragelaphus_angasii_unit45' GGCGAGCAGCGCGTGTACGAGCCGCGCGAC
+	'Tragelaphus_angasii_unit12' GGCGAGCAGCCGGTGGGCGAGCCGCGCGAG
+	'Tragelaphus_angasii_unit3'  ---------------GGCAAGCCGCGCGTG
+	'Tragelaphus_oryx_unit45'    GGCGAGCAGCGCGTGTACGAGCCGCGCGAC
+	'Tragelaphus_oryx_unit12'    GGCGAGCAGCCGGTGGGCGAGCCGCGCGAG
+	'Tragelaphus_oryx_unit3'     ---------------GGCGAGCCGCGCGTG
+	'Tragelaphus_imberbis_unit45' GGCGAGCAGCGCGTGTACGAGCCGCGCGAC
+	'Tragelaphus_imberbis_unit12' GGCGAGCAGCCGGTGGGCGAGCCGCGCGAG
+	'Tragelaphus_imberbis_unit3' ---------------GGCGAGCCGCGCGTG
+	'Bison_bonasus_unit45'       GGCGAGCAGCGCGTGTACGAGCCGCGCGAC
+	'Bison_bonasus_unit1'        GGCGAGCAGCGCGTG---------------
+	'Bison_bonasus_unit2'        GGCGAGCAGCGCGTG---------------
+	'Bison_bonasus_unit3'        GGCGAGCAKCGSGTG---------------
+	'Bos_gaurus_unit45'          GGCGAGCAGCGCGTGTACGAGCCGCGCGAC
+	'Bos_gaurus_unit1'           GGCGAGCAGCGCGTG---------------
+	'Bos_gaurus_unit3'           GGCGAGCAGCGCGTG---------------
+	'Bos_gaurus_unit2'           GGCGAGCAGCGCGTG---------------
+	'Bos_primagenius_unit45'     GGCGAGCAGCGCGTGTACGAGCCGCGCGAC
+	'Bos_primagenius_unit1'      GGCGAGCAGCGCGTG---------------
+	'Bos_primagenius_unit2'      GGCGAGCAGCGCTTG---------------
+	'Bos_primagenius_unit3'      GGCGAGCAGCGCGTG---------------
+	'Bos_javanicus_unit45'       GGCGAGCAGCGCGTGTACGAGCCGCGCGAC
+	'Bos_javanicus_unit1'        GGCGAGCAGCGCGTG---------------
+	'Bos_javanicus_unit2'        GGCGAGCAGCGCTTG---------------
+	'Bos_javanicus_unit3'        GGCGAGCAGCGCGTG---------------
+	'Bison_bison_unit45'         GGCGAGCAGCGCGTGTACGAGCCGCGCGAC
+	'Bison_bison_unit1'          GGCGAGCAGCGCGTG---------------
+	'Bison_bison_unit2'          GGCGAGCAGCGCKTG---------------
+	'Bison_bison_unit3'          GGCGAGCAGCGCGTG---------------
+	'Bos_grunniens_unit45'       GGCGAGCAGCGCGTGTACGAGCCGCGCGAC
+	'Bos_grunniens_unit1'        GGCGAGCAGCGCGTG---------------
+	'Bos_grunniens_unit2'        GGCGAGCAGCGTTTG---------------
+	'Bos_grunniens_unit3'        GGCGAGCAGCGCGTG---------------
+	'Bubalus_bubalis_unit45'     GGCGAGCAGCGCGTGTACGAGCCGCGCGAC
+	'Bubalus_bubalis_unit1'      GGCGAGCAGCGCGTG---------------
+	'Syncerus_caffer_unit45'     GGCGAGCAGCGCGTGTACGAGCCGCGCGAC
+	'Syncerus_caffer_unit1'      GGCGAGCAGCGCGTG---------------
+
+;
+
+
+
+END;
+
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED   =  unord:  1 -  30;
+
+END;
+
+BEGIN NOTES;
+
+	TAXABITS   NAME = newlyAddedTaxon on =  1 -  43;
+
+END;
+
+BEGIN CODONS;
+	CODESET * UNTITLED   =  universal:  1 -  30;
+
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED   =  'Jukes-Cantor':  1 -  30;
+END;
+
+BEGIN TREES;
+	Title Trees;
+	ID 016a220a33ad4;
+	LINK Taxa = Taxa;
+	TRANSLATE
+[0] 		1 'Cervus_elaphus_unit45',
+[1] 		2 'Muntiacus_muntjak_unit45',
+[2] 		3 'Moschus_berezovskii_unit45',
+[3] 		4 'Ovis_orientalis_unit45',
+[4] 		5 'Pseudois_nayaur_unit45',
+[5] 		6 'Capra_sibirica_unit45',
+[6] 		7 'Tragelaphus_angasii_unit45',
+[7] 		8 'Tragelaphus_angasii_unit12',
+[8] 		9 'Tragelaphus_angasii_unit3',
+[9] 		10 'Tragelaphus_oryx_unit45',
+[10] 		11 'Tragelaphus_oryx_unit12',
+[11] 		12 'Tragelaphus_oryx_unit3',
+[12] 		13 'Tragelaphus_imberbis_unit45',
+[13] 		14 'Tragelaphus_imberbis_unit12',
+[14] 		15 'Tragelaphus_imberbis_unit3',
+[15] 		16 'Bison_bonasus_unit45',
+[16] 		17 'Bison_bonasus_unit1',
+[17] 		18 'Bison_bonasus_unit2',
+[18] 		19 'Bison_bonasus_unit3',
+[19] 		20 'Bos_gaurus_unit45',
+[20] 		21 'Bos_gaurus_unit1',
+[21] 		22 'Bos_gaurus_unit3',
+[22] 		23 'Bos_gaurus_unit2',
+[23] 		24 'Bos_primagenius_unit45',
+[24] 		25 'Bos_primagenius_unit1',
+[25] 		26 'Bos_primagenius_unit2',
+[26] 		27 'Bos_primagenius_unit3',
+[27] 		28 'Bos_javanicus_unit45',
+[28] 		29 'Bos_javanicus_unit1',
+[29] 		30 'Bos_javanicus_unit2',
+[30] 		31 'Bos_javanicus_unit3',
+[31] 		32 'Bison_bison_unit45',
+[32] 		33 'Bison_bison_unit1',
+[33] 		34 'Bison_bison_unit2',
+[34] 		35 'Bison_bison_unit3',
+[35] 		36 'Bos_grunniens_unit45',
+[36] 		37 'Bos_grunniens_unit1',
+[37] 		38 'Bos_grunniens_unit2',
+[38] 		39 'Bos_grunniens_unit3',
+[39] 		40 'Bubalus_bubalis_unit45',
+[40] 		41 'Bubalus_bubalis_unit1',
+[41] 		42 'Syncerus_caffer_unit45',
+[42] 		43 'Syncerus_caffer_unit1';
+	TREE D10 = (((((((((((33[%color = 6 ],17[%color = 6 ])[%color = 6 ],37[%color = 6 ])[%color = 6 ],(29[%color = 6 ],21[%color = 6 ])[%color = 6 ])[%color = 6 ],25[%color = 6 ])[%color = 6 ],((((34[%color = 12 ],18[%color = 12 ])[%color = 12 ],38[%color = 12 ])[%color = 12 ],(30[%color = 12 ],23[%color = 12 ])[%color = 12 ])[%color = 12 ],26[%color = 12 ])[%color = 12 ],((((35[%color = 13 ],19[%color = 13 ])[%color = 13 ],39[%color = 13 ])[%color = 13 ],(31[%color = 13 ],22[%color = 13 ])[%color = 13 ])[%color = 13 ],27[%color = 13 ])[%color = 13 ])[%color = 6 ],(41[%color = 6 ],43[%color = 6 ])[%color = 6 ])[%color = 6 ],(((8[%color = 16 ],11[%color = 16 ])[%color = 16 ],14[%color = 16 ])[%color = 16 ],((12[%color = 14 ],15[%color = 14 ])[%color = 14 ],9[%color = 14 ])[%color = 14 ])[%color = 16 ])[%color = 5 ],((((((20[%color = 5 ],36[%color = 5 ])[%color = 5 ],(16[%color = 5 ],32[%color = 5 ])[%color = 5 ])[%color = 5 ],24[%color = 5 ])[%color = 5 ],28[%color = 5 ])[%color = 5 ],(40[%color = 5 ],42[%color = 5 ])[%color = 5 ])[%color = 5 ],((7[%color = 5 ],10[%color = 5 ])[%color = 5 ],13[%color = 5 ])[%color = 5 ])[%color = 5 ])[%color = 5 ],(4[%color = 5 ],(6[%color = 5 ],5[%color = 5 ])[%color = 5 ])[%color = 5 ])[%color = 5 ],3[%color = 5 ])[%color = 5 ],(1[%color = 5 ],2[%color = 5 ])[%color = 5 ])[%color = 5 ] [% ] [%  setBetweenBits = selected setBetweenLong = color ];
+
+END;
+
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1555350892571;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 6582405030424593002;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 538411308853903862;
+			mqVersion 310;
+			checksumv 0 3 1279480144 null  getNumChars 30 numChars 30 getNumTaxa 43 numTaxa 43   short true   bits 2305843009213693967   states 15   sumSquaresStatesOnly 12888.0 sumSquares -9.2233720368547717E18 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 100;
+			setPopoutState 300;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 898 927;
+			setLocation -1827 200;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord;
+		tell It;
+			makeTreeWindow #6582405030424593002  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.DefaultTrees.DefaultTrees;
+				setAssignedID 1114.1555348522506.8418619548551576431;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 798 855;
+					setLocation -1827 200;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.arrow;
+					endTell;
+					setActive;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.SquareLineTree.SquareLineTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							branchLengthsToggle off;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter on;
+							toggleEven on;
+							setFixedTaxonDistance 0;
+						endTell;
+						setEdgeWidth 4;
+						showEdgeLines on;
+						orientRight;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						toggleColorPartition off;
+						toggleColorAssigned on;
+						toggleShadePartition off;
+						toggleShowFootnotes on;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					setTree '(((((((((((33<color = 6 >,17<color = 6 >)<color = 6 >,37<color = 6 >)<color = 6 >,(29<color = 6 >,21<color = 6 >)<color = 6 >)<color = 6 >,25<color = 6 >)<color = 6 >,((((34<color = 16 >,18<color = 16 >)<color = 16 >,38<color = 16 >)<color = 16 >,(30<color = 16 >,23<color = 16 >)<color = 16 >)<color = 16 >,26<color = 16 >)<color = 16 >,((((35<color = 13 >,19<color = 13 >)<color = 13 >,39<color = 13 >)<color = 13 >,(31<color = 13 >,22<color = 13 >)<color = 13 >)<color = 13 >,27<color = 13 >)<color = 13 >)<color = 6 >,(41<color = 6 >,43<color = 6 >)<color = 6 >)<color = 6 >,(((8<color = 12 >,11<color = 12 >)<color = 12 >,14<color = 12 >)<color = 12 >,((9<color = 14 >,12<color = 14 >)<color = 14 >,15<color = 14 >)<color = 14 >)<color = 12 >)<color = 5 >,((((((20<color = 5 >,36<color = 5 >)<color = 5 >,(16<color = 5 >,32<color = 5 >)<color = 5 >)<color = 5 >,24<color = 5 >)<color = 5 >,28<color = 5 >)<color = 5 >,(40<color = 5 >,42<color = 5 >)<color = 5 >)<color = 5 >,((7<color = 5 >,10<color = 5 >)<color = 5 >,13<color = 5 >)<color = 5 >)<color = 5 >)<color = 5 >,((6<color = 5 >,5<color = 5 >)<color = 5 >,4<color = 5 >)<color = 5 >)<color = 5 >,3<color = 5 >)<color = 5 >,(1<color = 5 >,2<color = 5 >)<color = 5 >)<color = 5 > <> <  setBetweenBits = selected setBetweenLong = color >;';
+					setDrawingSizeMode 0;
+					toggleLegendFloat on;
+					scale 0;
+					toggleTextOnTree off;
+					togglePrintName on;
+					showWindow;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Magenta;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					toggleShow consensusFrequency;
+					setDigits 4;
+					writeAsPercentage off;
+					toggleCentred off;
+					toggleHorizontal on;
+					toggleWhiteEdges on;
+					toggleShowOnTerminals on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings;
+				tell It;
+					setOn on;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+					toggleShowOnTerminals on;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #538411308853903862 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 798 855;
+					setLocation -1827 200;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges off;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames off;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					toggleShowPaleExcluded off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize off;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.AlterData.AlterData;
+				tell It;
+					toggleBySubmenus off;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.align.AlignToDropped.AlignToDropped;
+				tell It;
+					gapCosts 8 3 2 2;
+					subCosts  10 5 10 10 10 5 5 10 10 10 5 10;
+				endTell;
+				getEmployee #mesquite.molec.ColorByAA.ColorByAA;
+				tell It;
+					emphasizeDegeneracy off;
+				endTell;
+				getEmployee #mesquite.molec.SequenceInfoEditor.SequenceInfoEditor;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+

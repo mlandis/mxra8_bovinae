@@ -1,0 +1,83 @@
+# build ingroup clade for alphaviridae
+
+#alphaviridae_clade = clade(alphaviridae)
+
+rubiviridae_names = [
+	"Rubivirus_spp_Enhydris_chinensis_MG600129",
+    "Rubella_virus_JQ624624",
+    "Rubella_virus_JN635291",
+    "Rubella_virus_DQ085339" ]
+SFV_names = [
+    "Onyong-nyong_virus_AF079456",
+    "Chikungunya_virus_AF369024",
+    "Una_virus_HM147992",
+    "Mayaro_virus_NC003417",
+    "Bebaru_virus_HM147985",
+    "Semliki_Forest_virus_X04129",
+    "Ross_River_virus_GQ433358",
+    "Sagiyama_virus_AB032553",
+    "Getah_virus_AY702913"
+     ]
+
+k = 1
+for (i in 1:n_taxa) {
+    is_rubiviridae = false
+    taxon_name = taxa[i].getSpeciesName()
+    for (j in 1:rubiviridae_names.size()) {
+        if (taxon_name == rubiviridae_names[j]) {
+            is_rubiviridae = true
+        }
+    }
+    if (!is_rubiviridae) {
+        alphaviridae_names[k++] = taxon_name        
+    }
+
+}
+
+clade_alphaviridae = clade( alphaviridae_names )
+clade_SFV = clade( SFV_names )
+clade_SFV_allies = clade( "Mayaro_virus_NC003417",  "Barmah_Forest_virus_U73745", "Ndumu_virus_HM147989", "Southern_elephant_seal_virus_HM147990", clade_SFV )
+
+if (dat_str == "togaviridae") {
+    clade_rubiviridae = clade( rubiviridae_names )
+    clade_togaviridae = clade( clade_alphaviridae, clade_rubiviridae )
+}
+
+if (virus_scenario == "crown_SFV") {
+    clades = [ clade_SFV ]
+} else if (virus_scenario == "crown_SFV_seal") {
+    clades = [ clade_SFV_allies ] 
+} else if (virus_scenario == "crown_alpha") {
+    clades = [ clade_alphaviridae ]
+} else if (virus_scenario == "stem_alpha") {
+    clades = [ clade_togaviridae ]
+}
+
+
+# Bovidae clade ages from Zurano et al, 2018
+
+host_clade_ages[1] = [ 18.3, 20.8 ] # Bovidae
+host_clade_ages[2] = [ 14.0, 17.6 ] # Bovinae
+host_clade_ages[3] = [ 13.5, 16.6 ] # Bos+Bubalus+Tragelalphus
+host_clade_ages[4] = [  4.8,  9.6 ] # Boselalphini
+host_clade_ages[5] = [  6.5,  8.1 ] # Tragelalphini
+host_clade_ages[6] = [  9.4, 12.0 ] # Bovini
+host_clade_ages[7] = [  3.4,  4.9 ] # Bos crown
+host_clade_ages[8] = [  1.1,  2.0 ] # Bubalus crown
+host_clade_ages[9] = [  5.0,  8.2 ] # Bubalus+Synceros
+
+
+host_clade_age_idx = -1
+if (host_scenario=="one_host_event") {
+    # ancestral to all clades
+    host_clade_age_idx = 2
+} else if (host_scenario=="four_host_event") {
+    # select minimum age of oldest genus (Tragelalphini)
+    host_clade_age_idx = 5
+}
+#else if (host_scenario=="two_host_event") {
+    # select Boselalphini, youngest of two deep clades
+#    host_clade_age_idx = 4
+
+min_age <- host_clade_ages[host_clade_age_idx][1]
+

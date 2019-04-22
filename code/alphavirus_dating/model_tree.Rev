@@ -1,0 +1,106 @@
+
+# get alphaviridae clade
+source("clade.Rev")
+
+# tree model
+birth ~ dnExp(1)
+birth.setValue(0.5)
+death ~ dnExp(1)
+death.setValue(0.3)
+rho ~ dnBeta(1,1)
+rho.setValue(0.5)
+
+# sampling proportion
+# ... we have no idea ...
+# ... but rho/death aren't separately identifiable, so whatever
+#rho <- 1.0
+
+# root age
+if (!exists("min_age")) min_age <- 0.
+if (no_calib) min_age <- 0.
+print(min_age)
+max_age <- 540
+root_age ~ dnUniform( min_age, max_age )
+
+# note to self: constrain alphaviridae crown instead
+# birth-death process
+if (virus_scenario == "crown_alpha") {
+  
+    if (bound_max_age) {
+        min_root_age <- min_age * 0.999
+        max_root_age <- min_age * 1.001
+        print("Root age bound to " + min_root_age + " to " + max_root_age )
+    } else {
+        min_root_age <- min_age
+        max_root_age <- max_age
+    }
+
+    root_age ~ dnUniform( min_root_age, max_root_age )
+    root_age.setValue(6.5)
+    phy ~ dnBDP( lambda=birth,
+                 mu=death,
+                 rho=rho,
+                 rootAge=root_age,
+                 taxa=taxa )
+
+    if (exists("phy_init")) {
+        print("Initializing phylogeny...")
+        root_age_tmp = root_age
+
+        #root_age.setValue(phy_init.rootAge())
+        phy.setValue(phy_init)
+        phy.rescale( root_age_tmp / phy_init.rootAge() )
+        root_age.setValue( phy.rootAge() )
+        print("AHH")
+        print(root_age)
+        #phy.lnProbability()
+    }
+
+} else if (virus_scenario == "crown_SFV") {
+  
+    # root _age
+    root_age ~ dnUniform( min_age, max_age )
+
+    # helps drawing initial tree
+    root_age.setValue(50)
+
+    # get base tree model distribution
+    phy_base = dnBDP( lambda=birth,
+                 mu=death,
+                 rho=rho,
+                 rootAge=root_age,
+                 taxa=taxa )
+
+    # add clade constraint
+    phy ~ dnConstrainedTopology( phy_base, constraints=clades )
+
+    # set node calibration
+    age_clade := tmrca(phy, clades[1])
+    age_SFV := tmrca(phy, clade_SFV)
+    age_SFV_allies := tmrca(phy, clade_SFV_allies)
+    age_alpha := tmrca(phy, clade_alphaviridae)
+
+    # min < age < max == min-age < 0 < max-age == age-max < 0 < age-min
+    if (!bound_max_age) {
+        max_clade_age <- max_age
+    } else {
+        max_clade_age <- min_age * 1.001
+    }
+    min_clade_age <- min_age * 0.999
+    if (min_clade_age > 0 && max_clade_age > 0) {
+        obs_age_alphaviridae ~ dnUniform(age_clade-max_clade_age, age_clade-min_clade_age)
+        obs_age_alphaviridae.clamp( 0 )
+    }
+
+    if (exists("phy_init")) {
+        print("Initializing phylogeny...")
+        root_age.setValue(phy_init.rootAge())
+        phy.setValue(phy_init)
+        phy.rescale( min_age / age_clade )
+        root_age.setValue( phy.rootAge() )
+        #phy.lnProbability()
+    }
+
+} else {
+    print("Unrecognized clade name")
+}

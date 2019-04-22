@@ -1,0 +1,717 @@
+     41     30
+
+Tragelaphus_eurycerus_Unit12    GGC GAG CAG CCC GTG GGC GAG CCG CGC GAG 
+Tragelaphus_angasii_Unit12      GGC GAG CAG CCC GTG GGC GAG CCG CGC GAG 
+Tragelaphus_imberbis_Unit12     GGC GAG CAG CCC GTG GGC GAG CCG CGC GAG 
+Bubalus_bubalis_Unit1           GGC GAG CAG CGC GTG --- --- --- --- --- 
+Syncerus_caffer_Unit1           GGC GAG CAG CGC GTG --- --- --- --- --- 
+Bison_bison_Unit1               GGC GAG CAG CGC GTG --- --- --- --- --- 
+Bos_javanicus_Unit1             GGC GAG CAG CGC GTG --- --- --- --- --- 
+Bos_grunniens_Unit1             GGC GAG CAG CGC GTG --- --- --- --- --- 
+Bos_mutus_Unit1                 GGC GAG CAG CGC GTG --- --- --- --- --- 
+Bos_primigenius_Unit1           GGC GAG CAG CGC GTG --- --- --- --- --- 
+Bos_taurus_Unit1                GGC GAG CAG CGC GTG --- --- --- --- --- 
+Bos_indicus_Unit1               GGC GAG CAG CGC GTG --- --- --- --- --- 
+Bison_bison_Unit2               GGC GAG CAG CGC TTG --- --- --- --- --- 
+Bos_javanicus_Unit2             GGC GAG CAG CGC TTG --- --- --- --- --- 
+Bos_grunniens_Unit2             GGC GAG CAG CGT TTG --- --- --- --- --- 
+Bos_mutus_Unit2                 GGC GAG CAG CGT TTG --- --- --- --- --- 
+Bos_primigenius_Unit2           GGC GAG CAG CGC TTG --- --- --- --- --- 
+Bos_taurus_Unit2                GGC GAG CAG CGC TTG --- --- --- --- --- 
+Bos_indicus_Unit2               GGC GAG CAG CGC TTG --- --- --- --- --- 
+Tragelaphus_eurycerus_Unit3     --- --- --- --- --- GGC GAG CCG CGC GTG 
+Tragelaphus_angasii_Unit3       --- --- --- --- --- GGC AAG CCG CGC GTG 
+Tragelaphus_imberbis_Unit3      --- --- --- --- --- GGC GAG CCG CGC GTG 
+Bison_bison_Unit3               GGC GAG CAG CGC GTG --- --- --- --- --- 
+Bos_javanicus_Unit3             GGC GAG CAG CGC GTG --- --- --- --- --- 
+Bos_grunniens_Unit3             GGC GAG CAG CGC GTG --- --- --- --- --- 
+Bos_mutus_Unit3                 GGC GAG CAG CGC GTG --- --- --- --- --- 
+Bos_primigenius_Unit3           GGC GAG CAG CGC GTG --- --- --- --- --- 
+Bos_taurus_Unit3                GGC GAG CAG CGC GTG --- --- --- --- --- 
+Bos_indicus_Unit3               GGC GAG CAG CGC GTG --- --- --- --- --- 
+Bos_indicus_Unit45              GGC GAG CAG CGC GTG TAC GAG CCG CGC GAC 
+Bos_taurus_Unit45               GGC GAG CAG CGC GTG TAC GAG CCG CGC GAC 
+Bos_primigenius_Unit45          GGC GAG CAG CGC GTG TAC GAG CCG CGC GAC 
+Bos_mutus_Unit45                GGC GAG CAG CGC GTN NNN NNN NNN NNN NNN 
+Bos_grunniens_Unit45            GGC GAG CAG CGC GTG TAC GAG CCG CGC GAC 
+Bos_javanicus_Unit45            GGC GAG CAG CGC GTG TAC GAG CCG CGC GAC 
+Bison_bison_Unit45              GGC GAG CAG CGC GTG TAC GAG CCG CGC GAC 
+Syncerus_caffer_Unit45          GGC GAG CAG CGC GTG TAC GAG CCG CGC GAC 
+Bubalus_bubalis_Unit45          GGC GAG CAG CGC GTG TAC GAG CCG CGC GAC 
+Tragelaphus_imberbis_Unit45     GGC GAG CAG CGC GTG TAC GAG CCG CGC GAC 
+Tragelaphus_angasii_Unit45      GGC GAG CAG CGC GTG TAC GAG CCG CGC GAC 
+Tragelaphus_eurycerus_Unit45    GGC GAG CAG CGC GTG TAC GAG CCG CGG GAC 
+
+
+
+Printing out site pattern counts
+
+
+        41         30  P
+
+Tragelaphus_eurycerus_Unit12     CAG CCC CCG CGC GAG GAG GAG GGC GGC GTG
+Tragelaphus_angasii_Unit12       CAG CCC CCG CGC GAG GAG GAG GGC GGC GTG
+Tragelaphus_imberbis_Unit12      CAG CCC CCG CGC GAG GAG GAG GGC GGC GTG
+Bubalus_bubalis_Unit1            CAG CGC --- --- --- --- GAG --- GGC GTG
+Syncerus_caffer_Unit1            CAG CGC --- --- --- --- GAG --- GGC GTG
+Bison_bison_Unit1                CAG CGC --- --- --- --- GAG --- GGC GTG
+Bos_javanicus_Unit1              CAG CGC --- --- --- --- GAG --- GGC GTG
+Bos_grunniens_Unit1              CAG CGC --- --- --- --- GAG --- GGC GTG
+Bos_mutus_Unit1                  CAG CGC --- --- --- --- GAG --- GGC GTG
+Bos_primigenius_Unit1            CAG CGC --- --- --- --- GAG --- GGC GTG
+Bos_taurus_Unit1                 CAG CGC --- --- --- --- GAG --- GGC GTG
+Bos_indicus_Unit1                CAG CGC --- --- --- --- GAG --- GGC GTG
+Bison_bison_Unit2                CAG CGC --- --- --- --- GAG --- GGC TTG
+Bos_javanicus_Unit2              CAG CGC --- --- --- --- GAG --- GGC TTG
+Bos_grunniens_Unit2              CAG CGT --- --- --- --- GAG --- GGC TTG
+Bos_mutus_Unit2                  CAG CGT --- --- --- --- GAG --- GGC TTG
+Bos_primigenius_Unit2            CAG CGC --- --- --- --- GAG --- GGC TTG
+Bos_taurus_Unit2                 CAG CGC --- --- --- --- GAG --- GGC TTG
+Bos_indicus_Unit2                CAG CGC --- --- --- --- GAG --- GGC TTG
+Tragelaphus_eurycerus_Unit3      --- --- CCG CGC GAG GTG --- GGC --- ---
+Tragelaphus_angasii_Unit3        --- --- CCG CGC AAG GTG --- GGC --- ---
+Tragelaphus_imberbis_Unit3       --- --- CCG CGC GAG GTG --- GGC --- ---
+Bison_bison_Unit3                CAG CGC --- --- --- --- GAG --- GGC GTG
+Bos_javanicus_Unit3              CAG CGC --- --- --- --- GAG --- GGC GTG
+Bos_grunniens_Unit3              CAG CGC --- --- --- --- GAG --- GGC GTG
+Bos_mutus_Unit3                  CAG CGC --- --- --- --- GAG --- GGC GTG
+Bos_primigenius_Unit3            CAG CGC --- --- --- --- GAG --- GGC GTG
+Bos_taurus_Unit3                 CAG CGC --- --- --- --- GAG --- GGC GTG
+Bos_indicus_Unit3                CAG CGC --- --- --- --- GAG --- GGC GTG
+Bos_indicus_Unit45               CAG CGC CCG CGC GAG GAC GAG TAC GGC GTG
+Bos_taurus_Unit45                CAG CGC CCG CGC GAG GAC GAG TAC GGC GTG
+Bos_primigenius_Unit45           CAG CGC CCG CGC GAG GAC GAG TAC GGC GTG
+Bos_mutus_Unit45                 CAG CGC NNN NNN NNN NNN GAG NNN GGC GTN
+Bos_grunniens_Unit45             CAG CGC CCG CGC GAG GAC GAG TAC GGC GTG
+Bos_javanicus_Unit45             CAG CGC CCG CGC GAG GAC GAG TAC GGC GTG
+Bison_bison_Unit45               CAG CGC CCG CGC GAG GAC GAG TAC GGC GTG
+Syncerus_caffer_Unit45           CAG CGC CCG CGC GAG GAC GAG TAC GGC GTG
+Bubalus_bubalis_Unit45           CAG CGC CCG CGC GAG GAC GAG TAC GGC GTG
+Tragelaphus_imberbis_Unit45      CAG CGC CCG CGC GAG GAC GAG TAC GGC GTG
+Tragelaphus_angasii_Unit45       CAG CGC CCG CGC GAG GAC GAG TAC GGC GTG
+Tragelaphus_eurycerus_Unit45     CAG CGC CCG CGG GAG GAC GAG TAC GGC GTG
+
+
+
+    1    1    1    1    1    1    1    1    1    1
+
+CODONML (in paml version 4.8, March 2014)  /Users/mlandis/projects/alphavirus_dating/data/emp/mxra8/Mxra8.bovinae.insert.D10.fas
+Model: One dN/dS ratio for branches, 
+Codon frequency model: F1x4
+ns =  41  ls =  10
+
+Codon usage in sequences
+--------------------------------------------------------------------------------------------------------------------------------------
+Phe TTT   0   0   0   0   0   0 | Ser TCT   0   0   0   0   0   0 | Tyr TAT   0   0   0   0   0   0 | Cys TGT   0   0   0   0   0   0
+    TTC   0   0   0   0   0   0 |     TCC   0   0   0   0   0   0 |     TAC   0   0   0   0   0   0 |     TGC   0   0   0   0   0   0
+Leu TTA   0   0   0   0   0   0 |     TCA   0   0   0   0   0   0 | *** TAA   0   0   0   0   0   0 | *** TGA   0   0   0   0   0   0
+    TTG   0   0   0   0   0   0 |     TCG   0   0   0   0   0   0 |     TAG   0   0   0   0   0   0 | Trp TGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Leu CTT   0   0   0   0   0   0 | Pro CCT   0   0   0   0   0   0 | His CAT   0   0   0   0   0   0 | Arg CGT   0   0   0   0   0   0
+    CTC   0   0   0   0   0   0 |     CCC   1   1   1   0   0   0 |     CAC   0   0   0   0   0   0 |     CGC   1   1   1   1   1   1
+    CTA   0   0   0   0   0   0 |     CCA   0   0   0   0   0   0 | Gln CAA   0   0   0   0   0   0 |     CGA   0   0   0   0   0   0
+    CTG   0   0   0   0   0   0 |     CCG   1   1   1   0   0   0 |     CAG   1   1   1   1   1   1 |     CGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Ile ATT   0   0   0   0   0   0 | Thr ACT   0   0   0   0   0   0 | Asn AAT   0   0   0   0   0   0 | Ser AGT   0   0   0   0   0   0
+    ATC   0   0   0   0   0   0 |     ACC   0   0   0   0   0   0 |     AAC   0   0   0   0   0   0 |     AGC   0   0   0   0   0   0
+    ATA   0   0   0   0   0   0 |     ACA   0   0   0   0   0   0 | Lys AAA   0   0   0   0   0   0 | Arg AGA   0   0   0   0   0   0
+Met ATG   0   0   0   0   0   0 |     ACG   0   0   0   0   0   0 |     AAG   0   0   0   0   0   0 |     AGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Val GTT   0   0   0   0   0   0 | Ala GCT   0   0   0   0   0   0 | Asp GAT   0   0   0   0   0   0 | Gly GGT   0   0   0   0   0   0
+    GTC   0   0   0   0   0   0 |     GCC   0   0   0   0   0   0 |     GAC   0   0   0   0   0   0 |     GGC   2   2   2   1   1   1
+    GTA   0   0   0   0   0   0 |     GCA   0   0   0   0   0   0 | Glu GAA   0   0   0   0   0   0 |     GGA   0   0   0   0   0   0
+    GTG   1   1   1   1   1   1 |     GCG   0   0   0   0   0   0 |     GAG   3   3   3   1   1   1 |     GGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------
+Phe TTT   0   0   0   0   0   0 | Ser TCT   0   0   0   0   0   0 | Tyr TAT   0   0   0   0   0   0 | Cys TGT   0   0   0   0   0   0
+    TTC   0   0   0   0   0   0 |     TCC   0   0   0   0   0   0 |     TAC   0   0   0   0   0   0 |     TGC   0   0   0   0   0   0
+Leu TTA   0   0   0   0   0   0 |     TCA   0   0   0   0   0   0 | *** TAA   0   0   0   0   0   0 | *** TGA   0   0   0   0   0   0
+    TTG   0   0   0   0   0   0 |     TCG   0   0   0   0   0   0 |     TAG   0   0   0   0   0   0 | Trp TGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Leu CTT   0   0   0   0   0   0 | Pro CCT   0   0   0   0   0   0 | His CAT   0   0   0   0   0   0 | Arg CGT   0   0   0   0   0   0
+    CTC   0   0   0   0   0   0 |     CCC   0   0   0   0   0   0 |     CAC   0   0   0   0   0   0 |     CGC   1   1   1   1   1   1
+    CTA   0   0   0   0   0   0 |     CCA   0   0   0   0   0   0 | Gln CAA   0   0   0   0   0   0 |     CGA   0   0   0   0   0   0
+    CTG   0   0   0   0   0   0 |     CCG   0   0   0   0   0   0 |     CAG   1   1   1   1   1   1 |     CGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Ile ATT   0   0   0   0   0   0 | Thr ACT   0   0   0   0   0   0 | Asn AAT   0   0   0   0   0   0 | Ser AGT   0   0   0   0   0   0
+    ATC   0   0   0   0   0   0 |     ACC   0   0   0   0   0   0 |     AAC   0   0   0   0   0   0 |     AGC   0   0   0   0   0   0
+    ATA   0   0   0   0   0   0 |     ACA   0   0   0   0   0   0 | Lys AAA   0   0   0   0   0   0 | Arg AGA   0   0   0   0   0   0
+Met ATG   0   0   0   0   0   0 |     ACG   0   0   0   0   0   0 |     AAG   0   0   0   0   0   0 |     AGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Val GTT   0   0   0   0   0   0 | Ala GCT   0   0   0   0   0   0 | Asp GAT   0   0   0   0   0   0 | Gly GGT   0   0   0   0   0   0
+    GTC   0   0   0   0   0   0 |     GCC   0   0   0   0   0   0 |     GAC   0   0   0   0   0   0 |     GGC   1   1   1   1   1   1
+    GTA   0   0   0   0   0   0 |     GCA   0   0   0   0   0   0 | Glu GAA   0   0   0   0   0   0 |     GGA   0   0   0   0   0   0
+    GTG   1   1   1   1   1   1 |     GCG   0   0   0   0   0   0 |     GAG   1   1   1   1   1   1 |     GGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------
+Phe TTT   0   0   0   0   0   0 | Ser TCT   0   0   0   0   0   0 | Tyr TAT   0   0   0   0   0   0 | Cys TGT   0   0   0   0   0   0
+    TTC   0   0   0   0   0   0 |     TCC   0   0   0   0   0   0 |     TAC   0   0   0   0   0   0 |     TGC   0   0   0   0   0   0
+Leu TTA   0   0   0   0   0   0 |     TCA   0   0   0   0   0   0 | *** TAA   0   0   0   0   0   0 | *** TGA   0   0   0   0   0   0
+    TTG   1   1   1   1   1   1 |     TCG   0   0   0   0   0   0 |     TAG   0   0   0   0   0   0 | Trp TGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Leu CTT   0   0   0   0   0   0 | Pro CCT   0   0   0   0   0   0 | His CAT   0   0   0   0   0   0 | Arg CGT   0   0   1   1   0   0
+    CTC   0   0   0   0   0   0 |     CCC   0   0   0   0   0   0 |     CAC   0   0   0   0   0   0 |     CGC   1   1   0   0   1   1
+    CTA   0   0   0   0   0   0 |     CCA   0   0   0   0   0   0 | Gln CAA   0   0   0   0   0   0 |     CGA   0   0   0   0   0   0
+    CTG   0   0   0   0   0   0 |     CCG   0   0   0   0   0   0 |     CAG   1   1   1   1   1   1 |     CGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Ile ATT   0   0   0   0   0   0 | Thr ACT   0   0   0   0   0   0 | Asn AAT   0   0   0   0   0   0 | Ser AGT   0   0   0   0   0   0
+    ATC   0   0   0   0   0   0 |     ACC   0   0   0   0   0   0 |     AAC   0   0   0   0   0   0 |     AGC   0   0   0   0   0   0
+    ATA   0   0   0   0   0   0 |     ACA   0   0   0   0   0   0 | Lys AAA   0   0   0   0   0   0 | Arg AGA   0   0   0   0   0   0
+Met ATG   0   0   0   0   0   0 |     ACG   0   0   0   0   0   0 |     AAG   0   0   0   0   0   0 |     AGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Val GTT   0   0   0   0   0   0 | Ala GCT   0   0   0   0   0   0 | Asp GAT   0   0   0   0   0   0 | Gly GGT   0   0   0   0   0   0
+    GTC   0   0   0   0   0   0 |     GCC   0   0   0   0   0   0 |     GAC   0   0   0   0   0   0 |     GGC   1   1   1   1   1   1
+    GTA   0   0   0   0   0   0 |     GCA   0   0   0   0   0   0 | Glu GAA   0   0   0   0   0   0 |     GGA   0   0   0   0   0   0
+    GTG   0   0   0   0   0   0 |     GCG   0   0   0   0   0   0 |     GAG   1   1   1   1   1   1 |     GGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------
+Phe TTT   0   0   0   0   0   0 | Ser TCT   0   0   0   0   0   0 | Tyr TAT   0   0   0   0   0   0 | Cys TGT   0   0   0   0   0   0
+    TTC   0   0   0   0   0   0 |     TCC   0   0   0   0   0   0 |     TAC   0   0   0   0   0   0 |     TGC   0   0   0   0   0   0
+Leu TTA   0   0   0   0   0   0 |     TCA   0   0   0   0   0   0 | *** TAA   0   0   0   0   0   0 | *** TGA   0   0   0   0   0   0
+    TTG   1   0   0   0   0   0 |     TCG   0   0   0   0   0   0 |     TAG   0   0   0   0   0   0 | Trp TGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Leu CTT   0   0   0   0   0   0 | Pro CCT   0   0   0   0   0   0 | His CAT   0   0   0   0   0   0 | Arg CGT   0   0   0   0   0   0
+    CTC   0   0   0   0   0   0 |     CCC   0   0   0   0   0   0 |     CAC   0   0   0   0   0   0 |     CGC   1   1   1   1   1   1
+    CTA   0   0   0   0   0   0 |     CCA   0   0   0   0   0   0 | Gln CAA   0   0   0   0   0   0 |     CGA   0   0   0   0   0   0
+    CTG   0   0   0   0   0   0 |     CCG   0   1   1   1   0   0 |     CAG   1   0   0   0   1   1 |     CGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Ile ATT   0   0   0   0   0   0 | Thr ACT   0   0   0   0   0   0 | Asn AAT   0   0   0   0   0   0 | Ser AGT   0   0   0   0   0   0
+    ATC   0   0   0   0   0   0 |     ACC   0   0   0   0   0   0 |     AAC   0   0   0   0   0   0 |     AGC   0   0   0   0   0   0
+    ATA   0   0   0   0   0   0 |     ACA   0   0   0   0   0   0 | Lys AAA   0   0   0   0   0   0 | Arg AGA   0   0   0   0   0   0
+Met ATG   0   0   0   0   0   0 |     ACG   0   0   0   0   0   0 |     AAG   0   0   1   0   0   0 |     AGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Val GTT   0   0   0   0   0   0 | Ala GCT   0   0   0   0   0   0 | Asp GAT   0   0   0   0   0   0 | Gly GGT   0   0   0   0   0   0
+    GTC   0   0   0   0   0   0 |     GCC   0   0   0   0   0   0 |     GAC   0   0   0   0   0   0 |     GGC   1   1   1   1   1   1
+    GTA   0   0   0   0   0   0 |     GCA   0   0   0   0   0   0 | Glu GAA   0   0   0   0   0   0 |     GGA   0   0   0   0   0   0
+    GTG   0   1   1   1   1   1 |     GCG   0   0   0   0   0   0 |     GAG   1   1   0   1   1   1 |     GGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------
+Phe TTT   0   0   0   0   0   0 | Ser TCT   0   0   0   0   0   0 | Tyr TAT   0   0   0   0   0   0 | Cys TGT   0   0   0   0   0   0
+    TTC   0   0   0   0   0   0 |     TCC   0   0   0   0   0   0 |     TAC   0   0   0   0   0   1 |     TGC   0   0   0   0   0   0
+Leu TTA   0   0   0   0   0   0 |     TCA   0   0   0   0   0   0 | *** TAA   0   0   0   0   0   0 | *** TGA   0   0   0   0   0   0
+    TTG   0   0   0   0   0   0 |     TCG   0   0   0   0   0   0 |     TAG   0   0   0   0   0   0 | Trp TGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Leu CTT   0   0   0   0   0   0 | Pro CCT   0   0   0   0   0   0 | His CAT   0   0   0   0   0   0 | Arg CGT   0   0   0   0   0   0
+    CTC   0   0   0   0   0   0 |     CCC   0   0   0   0   0   0 |     CAC   0   0   0   0   0   0 |     CGC   1   1   1   1   1   2
+    CTA   0   0   0   0   0   0 |     CCA   0   0   0   0   0   0 | Gln CAA   0   0   0   0   0   0 |     CGA   0   0   0   0   0   0
+    CTG   0   0   0   0   0   0 |     CCG   0   0   0   0   0   1 |     CAG   1   1   1   1   1   1 |     CGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Ile ATT   0   0   0   0   0   0 | Thr ACT   0   0   0   0   0   0 | Asn AAT   0   0   0   0   0   0 | Ser AGT   0   0   0   0   0   0
+    ATC   0   0   0   0   0   0 |     ACC   0   0   0   0   0   0 |     AAC   0   0   0   0   0   0 |     AGC   0   0   0   0   0   0
+    ATA   0   0   0   0   0   0 |     ACA   0   0   0   0   0   0 | Lys AAA   0   0   0   0   0   0 | Arg AGA   0   0   0   0   0   0
+Met ATG   0   0   0   0   0   0 |     ACG   0   0   0   0   0   0 |     AAG   0   0   0   0   0   0 |     AGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Val GTT   0   0   0   0   0   0 | Ala GCT   0   0   0   0   0   0 | Asp GAT   0   0   0   0   0   0 | Gly GGT   0   0   0   0   0   0
+    GTC   0   0   0   0   0   0 |     GCC   0   0   0   0   0   0 |     GAC   0   0   0   0   0   1 |     GGC   1   1   1   1   1   1
+    GTA   0   0   0   0   0   0 |     GCA   0   0   0   0   0   0 | Glu GAA   0   0   0   0   0   0 |     GGA   0   0   0   0   0   0
+    GTG   1   1   1   1   1   1 |     GCG   0   0   0   0   0   0 |     GAG   1   1   1   1   1   2 |     GGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------
+Phe TTT   0   0   0   0   0   0 | Ser TCT   0   0   0   0   0   0 | Tyr TAT   0   0   0   0   0   0 | Cys TGT   0   0   0   0   0   0
+    TTC   0   0   0   0   0   0 |     TCC   0   0   0   0   0   0 |     TAC   1   1   0   1   1   1 |     TGC   0   0   0   0   0   0
+Leu TTA   0   0   0   0   0   0 |     TCA   0   0   0   0   0   0 | *** TAA   0   0   0   0   0   0 | *** TGA   0   0   0   0   0   0
+    TTG   0   0   0   0   0   0 |     TCG   0   0   0   0   0   0 |     TAG   0   0   0   0   0   0 | Trp TGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Leu CTT   0   0   0   0   0   0 | Pro CCT   0   0   0   0   0   0 | His CAT   0   0   0   0   0   0 | Arg CGT   0   0   0   0   0   0
+    CTC   0   0   0   0   0   0 |     CCC   0   0   0   0   0   0 |     CAC   0   0   0   0   0   0 |     CGC   2   2   1   2   2   2
+    CTA   0   0   0   0   0   0 |     CCA   0   0   0   0   0   0 | Gln CAA   0   0   0   0   0   0 |     CGA   0   0   0   0   0   0
+    CTG   0   0   0   0   0   0 |     CCG   1   1   0   1   1   1 |     CAG   1   1   1   1   1   1 |     CGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Ile ATT   0   0   0   0   0   0 | Thr ACT   0   0   0   0   0   0 | Asn AAT   0   0   0   0   0   0 | Ser AGT   0   0   0   0   0   0
+    ATC   0   0   0   0   0   0 |     ACC   0   0   0   0   0   0 |     AAC   0   0   0   0   0   0 |     AGC   0   0   0   0   0   0
+    ATA   0   0   0   0   0   0 |     ACA   0   0   0   0   0   0 | Lys AAA   0   0   0   0   0   0 | Arg AGA   0   0   0   0   0   0
+Met ATG   0   0   0   0   0   0 |     ACG   0   0   0   0   0   0 |     AAG   0   0   0   0   0   0 |     AGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Val GTT   0   0   0   0   0   0 | Ala GCT   0   0   0   0   0   0 | Asp GAT   0   0   0   0   0   0 | Gly GGT   0   0   0   0   0   0
+    GTC   0   0   0   0   0   0 |     GCC   0   0   0   0   0   0 |     GAC   1   1   0   1   1   1 |     GGC   1   1   1   1   1   1
+    GTA   0   0   0   0   0   0 |     GCA   0   0   0   0   0   0 | Glu GAA   0   0   0   0   0   0 |     GGA   0   0   0   0   0   0
+    GTG   1   1   0   1   1   1 |     GCG   0   0   0   0   0   0 |     GAG   2   2   1   2   2   2 |     GGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------
+Phe TTT   0   0   0   0   0 | Ser TCT   0   0   0   0   0 | Tyr TAT   0   0   0   0   0 | Cys TGT   0   0   0   0   0
+    TTC   0   0   0   0   0 |     TCC   0   0   0   0   0 |     TAC   1   1   1   1   1 |     TGC   0   0   0   0   0
+Leu TTA   0   0   0   0   0 |     TCA   0   0   0   0   0 | *** TAA   0   0   0   0   0 | *** TGA   0   0   0   0   0
+    TTG   0   0   0   0   0 |     TCG   0   0   0   0   0 |     TAG   0   0   0   0   0 | Trp TGG   0   0   0   0   0
+----------------------------------------------------------------------------------------------------------------------
+Leu CTT   0   0   0   0   0 | Pro CCT   0   0   0   0   0 | His CAT   0   0   0   0   0 | Arg CGT   0   0   0   0   0
+    CTC   0   0   0   0   0 |     CCC   0   0   0   0   0 |     CAC   0   0   0   0   0 |     CGC   2   2   2   2   1
+    CTA   0   0   0   0   0 |     CCA   0   0   0   0   0 | Gln CAA   0   0   0   0   0 |     CGA   0   0   0   0   0
+    CTG   0   0   0   0   0 |     CCG   1   1   1   1   1 |     CAG   1   1   1   1   1 |     CGG   0   0   0   0   1
+----------------------------------------------------------------------------------------------------------------------
+Ile ATT   0   0   0   0   0 | Thr ACT   0   0   0   0   0 | Asn AAT   0   0   0   0   0 | Ser AGT   0   0   0   0   0
+    ATC   0   0   0   0   0 |     ACC   0   0   0   0   0 |     AAC   0   0   0   0   0 |     AGC   0   0   0   0   0
+    ATA   0   0   0   0   0 |     ACA   0   0   0   0   0 | Lys AAA   0   0   0   0   0 | Arg AGA   0   0   0   0   0
+Met ATG   0   0   0   0   0 |     ACG   0   0   0   0   0 |     AAG   0   0   0   0   0 |     AGG   0   0   0   0   0
+----------------------------------------------------------------------------------------------------------------------
+Val GTT   0   0   0   0   0 | Ala GCT   0   0   0   0   0 | Asp GAT   0   0   0   0   0 | Gly GGT   0   0   0   0   0
+    GTC   0   0   0   0   0 |     GCC   0   0   0   0   0 |     GAC   1   1   1   1   1 |     GGC   1   1   1   1   1
+    GTA   0   0   0   0   0 |     GCA   0   0   0   0   0 | Glu GAA   0   0   0   0   0 |     GGA   0   0   0   0   0
+    GTG   1   1   1   1   1 |     GCG   0   0   0   0   0 |     GAG   2   2   2   2   2 |     GGG   0   0   0   0   0
+----------------------------------------------------------------------------------------------------------------------
+
+Codon position x base (3x4) table for each sequence.
+
+#1: Tragelaphus_eurycerus_Unit12
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.10000    C:0.20000    A:0.40000    G:0.30000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.03333    C:0.33333    A:0.13333    G:0.50000
+
+#2: Tragelaphus_angasii_Unit12
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.10000    C:0.20000    A:0.40000    G:0.30000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.03333    C:0.33333    A:0.13333    G:0.50000
+
+#3: Tragelaphus_imberbis_Unit12
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.10000    C:0.20000    A:0.40000    G:0.30000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.03333    C:0.33333    A:0.13333    G:0.50000
+
+#4: Bubalus_bubalis_Unit1
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.26667    A:0.13333    G:0.53333
+
+#5: Syncerus_caffer_Unit1
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.26667    A:0.13333    G:0.53333
+
+#6: Bison_bison_Unit1
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.26667    A:0.13333    G:0.53333
+
+#7: Bos_javanicus_Unit1
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.26667    A:0.13333    G:0.53333
+
+#8: Bos_grunniens_Unit1
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.26667    A:0.13333    G:0.53333
+
+#9: Bos_mutus_Unit1
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.26667    A:0.13333    G:0.53333
+
+#10: Bos_primigenius_Unit1
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.26667    A:0.13333    G:0.53333
+
+#11: Bos_taurus_Unit1
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.26667    A:0.13333    G:0.53333
+
+#12: Bos_indicus_Unit1
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.26667    A:0.13333    G:0.53333
+
+#13: Bison_bison_Unit2
+position  1:    T:0.20000    C:0.40000    A:0.00000    G:0.40000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.13333    C:0.26667    A:0.13333    G:0.46667
+
+#14: Bos_javanicus_Unit2
+position  1:    T:0.20000    C:0.40000    A:0.00000    G:0.40000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.13333    C:0.26667    A:0.13333    G:0.46667
+
+#15: Bos_grunniens_Unit2
+position  1:    T:0.20000    C:0.40000    A:0.00000    G:0.40000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.20000    C:0.20000    A:0.00000    G:0.60000
+Average         T:0.20000    C:0.20000    A:0.13333    G:0.46667
+
+#16: Bos_mutus_Unit2
+position  1:    T:0.20000    C:0.40000    A:0.00000    G:0.40000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.20000    C:0.20000    A:0.00000    G:0.60000
+Average         T:0.20000    C:0.20000    A:0.13333    G:0.46667
+
+#17: Bos_primigenius_Unit2
+position  1:    T:0.20000    C:0.40000    A:0.00000    G:0.40000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.13333    C:0.26667    A:0.13333    G:0.46667
+
+#18: Bos_taurus_Unit2
+position  1:    T:0.20000    C:0.40000    A:0.00000    G:0.40000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.13333    C:0.26667    A:0.13333    G:0.46667
+
+#19: Bos_indicus_Unit2
+position  1:    T:0.20000    C:0.40000    A:0.00000    G:0.40000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.13333    C:0.26667    A:0.13333    G:0.46667
+
+#20: Tragelaphus_eurycerus_Unit3
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.20000    C:0.20000    A:0.20000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.33333    A:0.06667    G:0.53333
+
+#21: Tragelaphus_angasii_Unit3
+position  1:    T:0.00000    C:0.40000    A:0.20000    G:0.40000
+position  2:    T:0.20000    C:0.20000    A:0.20000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.33333    A:0.13333    G:0.46667
+
+#22: Tragelaphus_imberbis_Unit3
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.20000    C:0.20000    A:0.20000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.33333    A:0.06667    G:0.53333
+
+#23: Bison_bison_Unit3
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.26667    A:0.13333    G:0.53333
+
+#24: Bos_javanicus_Unit3
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.26667    A:0.13333    G:0.53333
+
+#25: Bos_grunniens_Unit3
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.26667    A:0.13333    G:0.53333
+
+#26: Bos_mutus_Unit3
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.26667    A:0.13333    G:0.53333
+
+#27: Bos_primigenius_Unit3
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.26667    A:0.13333    G:0.53333
+
+#28: Bos_taurus_Unit3
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.26667    A:0.13333    G:0.53333
+
+#29: Bos_indicus_Unit3
+position  1:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+position  2:    T:0.20000    C:0.00000    A:0.40000    G:0.40000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.26667    A:0.13333    G:0.53333
+
+#30: Bos_indicus_Unit45
+position  1:    T:0.10000    C:0.40000    A:0.00000    G:0.50000
+position  2:    T:0.10000    C:0.10000    A:0.50000    G:0.30000
+position  3:    T:0.00000    C:0.50000    A:0.00000    G:0.50000
+Average         T:0.06667    C:0.33333    A:0.16667    G:0.43333
+
+#31: Bos_taurus_Unit45
+position  1:    T:0.10000    C:0.40000    A:0.00000    G:0.50000
+position  2:    T:0.10000    C:0.10000    A:0.50000    G:0.30000
+position  3:    T:0.00000    C:0.50000    A:0.00000    G:0.50000
+Average         T:0.06667    C:0.33333    A:0.16667    G:0.43333
+
+#32: Bos_primigenius_Unit45
+position  1:    T:0.10000    C:0.40000    A:0.00000    G:0.50000
+position  2:    T:0.10000    C:0.10000    A:0.50000    G:0.30000
+position  3:    T:0.00000    C:0.50000    A:0.00000    G:0.50000
+Average         T:0.06667    C:0.33333    A:0.16667    G:0.43333
+
+#33: Bos_mutus_Unit45
+position  1:    T:0.00000    C:0.50000    A:0.00000    G:0.50000
+position  2:    T:0.00000    C:0.00000    A:0.50000    G:0.50000
+position  3:    T:0.00000    C:0.50000    A:0.00000    G:0.50000
+Average         T:0.00000    C:0.33333    A:0.16667    G:0.50000
+
+#34: Bos_grunniens_Unit45
+position  1:    T:0.10000    C:0.40000    A:0.00000    G:0.50000
+position  2:    T:0.10000    C:0.10000    A:0.50000    G:0.30000
+position  3:    T:0.00000    C:0.50000    A:0.00000    G:0.50000
+Average         T:0.06667    C:0.33333    A:0.16667    G:0.43333
+
+#35: Bos_javanicus_Unit45
+position  1:    T:0.10000    C:0.40000    A:0.00000    G:0.50000
+position  2:    T:0.10000    C:0.10000    A:0.50000    G:0.30000
+position  3:    T:0.00000    C:0.50000    A:0.00000    G:0.50000
+Average         T:0.06667    C:0.33333    A:0.16667    G:0.43333
+
+#36: Bison_bison_Unit45
+position  1:    T:0.10000    C:0.40000    A:0.00000    G:0.50000
+position  2:    T:0.10000    C:0.10000    A:0.50000    G:0.30000
+position  3:    T:0.00000    C:0.50000    A:0.00000    G:0.50000
+Average         T:0.06667    C:0.33333    A:0.16667    G:0.43333
+
+#37: Syncerus_caffer_Unit45
+position  1:    T:0.10000    C:0.40000    A:0.00000    G:0.50000
+position  2:    T:0.10000    C:0.10000    A:0.50000    G:0.30000
+position  3:    T:0.00000    C:0.50000    A:0.00000    G:0.50000
+Average         T:0.06667    C:0.33333    A:0.16667    G:0.43333
+
+#38: Bubalus_bubalis_Unit45
+position  1:    T:0.10000    C:0.40000    A:0.00000    G:0.50000
+position  2:    T:0.10000    C:0.10000    A:0.50000    G:0.30000
+position  3:    T:0.00000    C:0.50000    A:0.00000    G:0.50000
+Average         T:0.06667    C:0.33333    A:0.16667    G:0.43333
+
+#39: Tragelaphus_imberbis_Unit45
+position  1:    T:0.10000    C:0.40000    A:0.00000    G:0.50000
+position  2:    T:0.10000    C:0.10000    A:0.50000    G:0.30000
+position  3:    T:0.00000    C:0.50000    A:0.00000    G:0.50000
+Average         T:0.06667    C:0.33333    A:0.16667    G:0.43333
+
+#40: Tragelaphus_angasii_Unit45
+position  1:    T:0.10000    C:0.40000    A:0.00000    G:0.50000
+position  2:    T:0.10000    C:0.10000    A:0.50000    G:0.30000
+position  3:    T:0.00000    C:0.50000    A:0.00000    G:0.50000
+Average         T:0.06667    C:0.33333    A:0.16667    G:0.43333
+
+#41: Tragelaphus_eurycerus_Unit45
+position  1:    T:0.10000    C:0.40000    A:0.00000    G:0.50000
+position  2:    T:0.10000    C:0.10000    A:0.50000    G:0.30000
+position  3:    T:0.00000    C:0.40000    A:0.00000    G:0.60000
+Average         T:0.06667    C:0.30000    A:0.16667    G:0.46667
+
+Sums of codon usage counts
+------------------------------------------------------------------------------
+Phe F TTT       0 | Ser S TCT       0 | Tyr Y TAT       0 | Cys C TGT       0
+      TTC       0 |       TCC       0 |       TAC      11 |       TGC       0
+Leu L TTA       0 |       TCA       0 | *** * TAA       0 | *** * TGA       0
+      TTG       7 |       TCG       0 |       TAG       0 | Trp W TGG       0
+------------------------------------------------------------------------------
+Leu L CTT       0 | Pro P CCT       0 | His H CAT       0 | Arg R CGT       2
+      CTC       0 |       CCC       3 |       CAC       0 |       CGC      49
+      CTA       0 |       CCA       0 | Gln Q CAA       0 |       CGA       0
+      CTG       0 |       CCG      17 |       CAG      38 |       CGG       1
+------------------------------------------------------------------------------
+Ile I ATT       0 | Thr T ACT       0 | Asn N AAT       0 | Ser S AGT       0
+      ATC       0 |       ACC       0 |       AAC       0 |       AGC       0
+      ATA       0 |       ACA       0 | Lys K AAA       0 | Arg R AGA       0
+Met M ATG       0 |       ACG       0 |       AAG       1 |       AGG       0
+------------------------------------------------------------------------------
+Val V GTT       0 | Ala A GCT       0 | Asp D GAT       0 | Gly G GGT       0
+      GTC       0 |       GCC       0 |       GAC      11 |       GGC      44
+      GTA       0 |       GCA       0 | Glu E GAA       0 |       GGA       0
+      GTG      33 |       GCG       0 |       GAG      57 |       GGG       0
+------------------------------------------------------------------------------
+
+(Ambiguity data are not used in the counts.)
+
+
+Codon position x base (3x4) table, overall
+
+position  1:    T:0.06569    C:0.40146    A:0.00365    G:0.52920
+position  2:    T:0.14599    C:0.07299    A:0.43066    G:0.35036
+position  3:    T:0.00730    C:0.43066    A:0.00000    G:0.56204
+Average         T:0.07299    C:0.30170    A:0.14477    G:0.48054
+
+Codon frequencies under model, for use in evolver (TTT TTC TTA TTG ... GGG):
+  0.00041056  0.00166914  0.00080092  0.00266524
+  0.00166914  0.00678602  0.00325620  0.01083575
+  0.00080092  0.00325620  0.00000000  0.00000000
+  0.00266524  0.01083575  0.00000000  0.01730225
+  0.00166914  0.00678602  0.00325620  0.01083575
+  0.00678602  0.02758909  0.01323831  0.04405354
+  0.00325620  0.01323831  0.00635225  0.02113859
+  0.01083575  0.04405354  0.02113859  0.07034355
+  0.00080092  0.00325620  0.00156245  0.00519941
+  0.00325620  0.01323831  0.00635225  0.02113859
+  0.00156245  0.00635225  0.00304806  0.01014312
+  0.00519941  0.02113859  0.01014312  0.03375356
+  0.00266524  0.01083575  0.00519941  0.01730225
+  0.01083575  0.04405354  0.02113859  0.07034355
+  0.00519941  0.02113859  0.01014312  0.03375356
+  0.01730225  0.07034355  0.03375356  0.11232277
+
+
+
+Nei & Gojobori 1986. dN/dS (dN, dS)
+(Pairwise deletion)
+(Note: This matrix is not used in later ML. analysis.
+Use runmode = -2 for ML pairwise comparison.)
+
+Tragelaphus_eurycerus_Unit12
+Tragelaphus_angasii_Unit12-1.0000 (0.0000 0.0000)
+Tragelaphus_imberbis_Unit12-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bubalus_bubalis_Unit1-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)
+Syncerus_caffer_Unit1-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0000 0.0000)
+Bison_bison_Unit1   -1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bos_javanicus_Unit1 -1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bos_grunniens_Unit1 -1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bos_mutus_Unit1     -1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bos_primigenius_Unit1-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bos_taurus_Unit1    -1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bos_indicus_Unit1   -1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bison_bison_Unit2   -1.0000 (0.2020 0.0000)-1.0000 (0.2020 0.0000)-1.0000 (0.2020 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)
+Bos_javanicus_Unit2 -1.0000 (0.2020 0.0000)-1.0000 (0.2020 0.0000)-1.0000 (0.2020 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0000 0.0000)
+Bos_grunniens_Unit2  0.6039 (0.2020 0.3345) 0.6039 (0.2020 0.3345) 0.6039 (0.2020 0.3345) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0000 0.3505)-1.0000 (0.0000 0.3505)
+Bos_mutus_Unit2      0.6039 (0.2020 0.3345) 0.6039 (0.2020 0.3345) 0.6039 (0.2020 0.3345) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0000 0.3505)-1.0000 (0.0000 0.3505)-1.0000 (0.0000 0.0000)
+Bos_primigenius_Unit2-1.0000 (0.2020 0.0000)-1.0000 (0.2020 0.0000)-1.0000 (0.2020 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.3505)-1.0000 (0.0000 0.3505)
+Bos_taurus_Unit2    -1.0000 (0.2020 0.0000)-1.0000 (0.2020 0.0000)-1.0000 (0.2020 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.3505)-1.0000 (0.0000 0.3505)-1.0000 (0.0000 0.0000)
+Bos_indicus_Unit2   -1.0000 (0.2020 0.0000)-1.0000 (0.2020 0.0000)-1.0000 (0.2020 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.3505)-1.0000 (0.0000 0.3505)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Tragelaphus_eurycerus_Unit3-1.0000 (0.0982 0.0000)-1.0000 (0.0982 0.0000)-1.0000 (0.0982 0.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)
+Tragelaphus_angasii_Unit3-1.0000 (0.2113 0.0000)-1.0000 (0.2113 0.0000)-1.0000 (0.2113 0.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (0.1011 0.0000)
+Tragelaphus_imberbis_Unit3-1.0000 (0.0982 0.0000)-1.0000 (0.0982 0.0000)-1.0000 (0.0982 0.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.1011 0.0000)
+Bison_bison_Unit3   -1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)
+Bos_javanicus_Unit3 -1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (0.0000 0.0000)
+Bos_grunniens_Unit3 -1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bos_mutus_Unit3     -1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bos_primigenius_Unit3-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bos_taurus_Unit3    -1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bos_indicus_Unit3   -1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0954 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bos_indicus_Unit45  -1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 2.8368 (0.4060 0.1431) 4.0405 (0.5783 0.1431) 2.8368 (0.4060 0.1431)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bos_taurus_Unit45   -1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 2.8368 (0.4060 0.1431) 4.0405 (0.5783 0.1431) 2.8368 (0.4060 0.1431)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bos_primigenius_Unit45-1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 2.8368 (0.4060 0.1431) 4.0405 (0.5783 0.1431) 2.8368 (0.4060 0.1431)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bos_mutus_Unit45    -1.0000 (0.1178 0.0000)-1.0000 (0.1178 0.0000)-1.0000 (0.1178 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.4793)-1.0000 (0.0000 0.4793)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bos_grunniens_Unit45-1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 2.8368 (0.4060 0.1431) 4.0405 (0.5783 0.1431) 2.8368 (0.4060 0.1431)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bos_javanicus_Unit45-1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 2.8368 (0.4060 0.1431) 4.0405 (0.5783 0.1431) 2.8368 (0.4060 0.1431)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bison_bison_Unit45  -1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 2.8368 (0.4060 0.1431) 4.0405 (0.5783 0.1431) 2.8368 (0.4060 0.1431)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Syncerus_caffer_Unit45-1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 2.8368 (0.4060 0.1431) 4.0405 (0.5783 0.1431) 2.8368 (0.4060 0.1431)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Bubalus_bubalis_Unit45-1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 2.8368 (0.4060 0.1431) 4.0405 (0.5783 0.1431) 2.8368 (0.4060 0.1431)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Tragelaphus_imberbis_Unit45-1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 2.8368 (0.4060 0.1431) 4.0405 (0.5783 0.1431) 2.8368 (0.4060 0.1431)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Tragelaphus_angasii_Unit45-1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.2016 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 2.8368 (0.4060 0.1431) 4.0405 (0.5783 0.1431) 2.8368 (0.4060 0.1431)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)
+Tragelaphus_eurycerus_Unit45 1.3942 (0.2034 0.1459) 1.3942 (0.2034 0.1459) 1.3942 (0.2034 0.1459)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 0.2817 (0.0942 0.3345) 0.2817 (0.0942 0.3345)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000)-1.0000 (0.0942 0.0000) 0.8009 (0.4146 0.5177) 1.1441 (0.5923 0.5177) 0.8009 (0.4146 0.5177)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.1528)-1.0000 (0.0000 0.1528)-1.0000 (0.0000 0.1528)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.1528)-1.0000 (0.0000 0.1528)-1.0000 (0.0000 0.1528)-1.0000 (0.0000 0.1528)-1.0000 (0.0000 0.1528)-1.0000 (0.0000 0.1528)-1.0000 (0.0000 0.1528)
+NOTE: -1 means that NG86 is inapplicable.
+
+
+TREE #  1:  ((((((((6, (8, 9)), 7), ((11, 10), 12)), (((17, 18), 19), ((13, (16, 15)), 14))), (((23, (26, 25)), 24), (27, (28, 29)))), (4, 5)), (((21, 20), 22), ((1, 2), 3))), (((((31, 32), 30), (35, ((33, 34), 36))), (37, 38)), (39, (40, 41))));   MP score: -1
+This is a rooted tree.  Please check!
+lnL(ntime: 80  np: 82):    -79.972220      +0.000000
+  42..43   43..44   44..45   45..46   46..47   47..48   48..49   49..6    49..50   50..8    50..9    48..7    47..51   51..52   52..11   52..10   51..12   46..53   53..54   54..55   55..17   55..18   54..19   53..56   56..57   57..13   57..58   58..16   58..15   56..14   45..59   59..60   60..61   61..23   61..62   62..26   62..25   60..24   59..63   63..27   63..64   64..28   64..29   44..65   65..4    65..5    43..66   66..67   67..68   68..21   68..20   67..22   66..69   69..70   70..1    70..2    69..3    42..71   71..72   72..73   73..74   74..75   75..31   75..32   74..30   73..76   76..35   76..77   77..78   78..33   78..34   77..36   72..79   79..37   79..38   71..80   80..39   80..81   81..40   81..41 
+ 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.211582 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.244107 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.432703 0.200189 0.000004 0.199065 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.000004 0.104641 1.224440 1.002131
+
+Note: Branch length is defined as number of nucleotide substitutions per codon (not per neucleotide site).
+
+tree length =   1.39258
+
+((((((((6: 0.000004, (8: 0.000004, 9: 0.000004): 0.000004): 0.000004, 7: 0.000004): 0.000004, ((11: 0.000004, 10: 0.000004): 0.000004, 12: 0.000004): 0.000004): 0.000004, (((17: 0.000004, 18: 0.000004): 0.000004, 19: 0.000004): 0.000004, ((13: 0.000004, (16: 0.000004, 15: 0.000004): 0.244107): 0.000004, 14: 0.000004): 0.000004): 0.211582): 0.000004, (((23: 0.000004, (26: 0.000004, 25: 0.000004): 0.000004): 0.000004, 24: 0.000004): 0.000004, (27: 0.000004, (28: 0.000004, 29: 0.000004): 0.000004): 0.000004): 0.000004): 0.000004, (4: 0.000004, 5: 0.000004): 0.000004): 0.000004, (((21: 0.199065, 20: 0.000004): 0.000004, 22: 0.000004): 0.200189, ((1: 0.000004, 2: 0.000004): 0.000004, 3: 0.000004): 0.000004): 0.432703): 0.000004, (((((31: 0.000004, 32: 0.000004): 0.000004, 30: 0.000004): 0.000004, (35: 0.000004, ((33: 0.000004, 34: 0.000004): 0.000004, 36: 0.000004): 0.000004): 0.000004): 0.000004, (37: 0.000004, 38: 0.000004): 0.000004): 0.000004, (39: 0.000004, (40: 0.000004, 41: 0.104641): 0.000004): 0.000004): 0.000004);
+
+((((((((Bison_bison_Unit1: 0.000004, (Bos_grunniens_Unit1: 0.000004, Bos_mutus_Unit1: 0.000004): 0.000004): 0.000004, Bos_javanicus_Unit1: 0.000004): 0.000004, ((Bos_taurus_Unit1: 0.000004, Bos_primigenius_Unit1: 0.000004): 0.000004, Bos_indicus_Unit1: 0.000004): 0.000004): 0.000004, (((Bos_primigenius_Unit2: 0.000004, Bos_taurus_Unit2: 0.000004): 0.000004, Bos_indicus_Unit2: 0.000004): 0.000004, ((Bison_bison_Unit2: 0.000004, (Bos_mutus_Unit2: 0.000004, Bos_grunniens_Unit2: 0.000004): 0.244107): 0.000004, Bos_javanicus_Unit2: 0.000004): 0.000004): 0.211582): 0.000004, (((Bison_bison_Unit3: 0.000004, (Bos_mutus_Unit3: 0.000004, Bos_grunniens_Unit3: 0.000004): 0.000004): 0.000004, Bos_javanicus_Unit3: 0.000004): 0.000004, (Bos_primigenius_Unit3: 0.000004, (Bos_taurus_Unit3: 0.000004, Bos_indicus_Unit3: 0.000004): 0.000004): 0.000004): 0.000004): 0.000004, (Bubalus_bubalis_Unit1: 0.000004, Syncerus_caffer_Unit1: 0.000004): 0.000004): 0.000004, (((Tragelaphus_angasii_Unit3: 0.199065, Tragelaphus_eurycerus_Unit3: 0.000004): 0.000004, Tragelaphus_imberbis_Unit3: 0.000004): 0.200189, ((Tragelaphus_eurycerus_Unit12: 0.000004, Tragelaphus_angasii_Unit12: 0.000004): 0.000004, Tragelaphus_imberbis_Unit12: 0.000004): 0.000004): 0.432703): 0.000004, (((((Bos_taurus_Unit45: 0.000004, Bos_primigenius_Unit45: 0.000004): 0.000004, Bos_indicus_Unit45: 0.000004): 0.000004, (Bos_javanicus_Unit45: 0.000004, ((Bos_mutus_Unit45: 0.000004, Bos_grunniens_Unit45: 0.000004): 0.000004, Bison_bison_Unit45: 0.000004): 0.000004): 0.000004): 0.000004, (Syncerus_caffer_Unit45: 0.000004, Bubalus_bubalis_Unit45: 0.000004): 0.000004): 0.000004, (Tragelaphus_imberbis_Unit45: 0.000004, (Tragelaphus_angasii_Unit45: 0.000004, Tragelaphus_eurycerus_Unit45: 0.104641): 0.000004): 0.000004): 0.000004);
+
+Detailed output identifying parameters
+
+kappa (ts/tv) =  1.22444
+
+omega (dN/dS) =  1.00213
+
+dN & dS for each branch
+
+ branch          t       N       S   dN/dS      dN      dS  N*dN  S*dS
+
+  42..43     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  43..44     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  44..45     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  45..46     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  46..47     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  47..48     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  48..49     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  49..6      0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  49..50     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  50..8      0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  50..9      0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  48..7      0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  47..51     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  51..52     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  52..11     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  52..10     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  51..12     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  46..53     0.212    20.1     9.9  1.0021  0.0706  0.0704   1.4   0.7
+  53..54     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  54..55     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  55..17     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  55..18     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  54..19     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  53..56     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  56..57     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  57..13     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  57..58     0.244    20.1     9.9  1.0021  0.0814  0.0813   1.6   0.8
+  58..16     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  58..15     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  56..14     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  45..59     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  59..60     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  60..61     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  61..23     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  61..62     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  62..26     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  62..25     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  60..24     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  59..63     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  63..27     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  63..64     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  64..28     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  64..29     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  44..65     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  65..4      0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  65..5      0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  43..66     0.433    20.1     9.9  1.0021  0.1443  0.1440   2.9   1.4
+  66..67     0.200    20.1     9.9  1.0021  0.0668  0.0666   1.3   0.7
+  67..68     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  68..21     0.199    20.1     9.9  1.0021  0.0664  0.0663   1.3   0.7
+  68..20     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  67..22     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  66..69     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  69..70     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  70..1      0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  70..2      0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  69..3      0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  42..71     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  71..72     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  72..73     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  73..74     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  74..75     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  75..31     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  75..32     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  74..30     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  73..76     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  76..35     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  76..77     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  77..78     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  78..33     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  78..34     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  77..36     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  72..79     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  79..37     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  79..38     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  71..80     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  80..39     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  80..81     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  81..40     0.000    20.1     9.9  1.0021  0.0000  0.0000   0.0   0.0
+  81..41     0.105    20.1     9.9  1.0021  0.0349  0.0348   0.7   0.3
+
+tree length for dN:       0.4645
+tree length for dS:       0.4635
+
+
+Time used:  2:50

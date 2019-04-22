@@ -1,0 +1,28 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=17;
+	Taxlabels
+		Bison_bison
+		Bison_bonasus
+		Bos_gaurus
+		Bos_grunniens
+		Bos_javanicus
+		Bos_primagenius
+		Bubalus_bubalis
+		Capra_sibirica
+		Cervus_elaphus
+		Moschus_berezovskii
+		Muntiacus_muntjak
+		Ovis_orientalis
+		Pseudois_nayaur
+		Syncerus_caffer
+		Taurotragus_oryx
+		Tragelaphus_angasii
+		Tragelaphus_imberbis
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](Moschus_berezovskii[&index=17,age_95%_HPD={0.005836,0.020107}]:0.012487,(Muntiacus_muntjak[&index=16,age_95%_HPD={0,0.010343}]:0.008690,Cervus_elaphus[&index=15,age_95%_HPD={0,0.013089}]:0.003452)[&index=18,posterior=1.000000,age_95%_HPD={0.004429,0.016712}]:0.017295,((Ovis_orientalis[&index=14,age_95%_HPD={0.00508,0.018643}]:0.002993,(Capra_sibirica[&index=13,age_95%_HPD={0.001558,0.018115}]:0.002319,Pseudois_nayaur[&index=12,age_95%_HPD={0.00361,0.019223}]:0.001727)[&index=19,posterior=1.000000,age_95%_HPD={0.00508,0.021526}]:0.001068)[&index=20,posterior=1.000000,age_95%_HPD={0.007045,0.022773}]:0.010436,((Tragelaphus_imberbis[&index=11,age_95%_HPD={0.001159,0.014075}]:0.004804,(Taurotragus_oryx[&index=10,age_95%_HPD={0,0.010035}]:0.008999,Tragelaphus_angasii[&index=9,age_95%_HPD={0.001285,0.013091}]:0.002506)[&index=21,posterior=0.500000,age_95%_HPD={0.005506,0.017337}]:0.000618)[&index=22,posterior=1.000000,age_95%_HPD={0.006093,0.018728}]:0.006067,((Bos_grunniens[&index=8,age_95%_HPD={0.002473,0.015818}]:0.001327,Bos_primagenius[&index=7,age_95%_HPD={0.001296,0.014201}]:0.002956,(Bos_gaurus[&index=6,age_95%_HPD={0,0.014361}]:0.001173,(Bos_javanicus[&index=5,age_95%_HPD={0,0.012973}]:0.000664,Bison_bison[&index=4,age_95%_HPD={0,0.013586}]:0.000497,Bison_bonasus[&index=3,age_95%_HPD={0,0.013531}]:0.000689)[&index=23,posterior=1.000000,age_95%_HPD={0.000624,0.014115}]:0.001938)[&index=24,posterior=0.921053,age_95%_HPD={0.00189,0.015415}]:0.001269)[&index=25,posterior=1.000000,age_95%_HPD={0.003902,0.016826}]:0.004101,(Syncerus_caffer[&index=2,age_95%_HPD={0,0.013393}]:0.004222,Bubalus_bubalis[&index=1,age_95%_HPD={0.003431,0.016548}]:0.002951)[&index=26,posterior=0.921053,age_95%_HPD={0.004882,0.017382}]:0.001666)[&index=27,posterior=1.000000,age_95%_HPD={0.008055,0.019125}]:0.003397)[&index=28,posterior=1.000000,age_95%_HPD={0.011231,0.023723}]:0.007376)[&index=29,posterior=0.986842,age_95%_HPD={0.015175,0.031245}]:0.002522)[&index=30,posterior=1.000000,age_95%_HPD={0.019058,0.035389}]:0.000000;
+End;
