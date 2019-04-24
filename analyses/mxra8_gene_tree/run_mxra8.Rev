@@ -1,7 +1,6 @@
-fp = "/Users/mlandis/projects/alphavirus_dating/"
-dat_fp = fp + "data/emp/mxra8/"
-out_fp = fp + "output/emp/mxra8/"
-mol_fn = dat_fp + "Mxra8.complete.fas"
+fp = "/Users/mlandis/projects/mxra8_bovinae/analyses/mxra8_gene_tree/"
+out_fp = fp + "output/"
+mol_fn = fp + "Mxra8.bovinae.complete.fas"
 #mol_fn = dat_fp + "Mxra8_in_BovineGenomes/bovinae_trim_spp.fas"
 #mol_fn = dat_fp + "mxra8.fasta"
 #out_fn = out_fp + "mxra8.out.fasta.best.fas"
@@ -25,9 +24,7 @@ mni = 1
 #outgroup = clade("Equus_caballus_Mxra8_XM_023636045",
 #"Mus_musculus_Mxra8_NM_024263",
 #"Canis_lupus_familiaris_Mxra8_XM_546712")
-outgroup = clade("Muntiacus_muntjak",
-                 "Cervus_elaphus",
-                 "Odocoileus_virginianus")
+outgroup = clade("Boselaphus_tragocamelus")
 
 topology ~ dnUniformTopology( taxa=taxa, outgroup=outgroup )
 mv[mvi++] = mvNNI(topology, weight=n_branches)
@@ -38,7 +35,7 @@ bl_prop ~ dnDirichlet( rep(1, n_branches) )
 mv[mvi++] = mvSimplex( bl_prop, alpha=20, weight=n_branches/2 )
 mv[mvi++] = mvSimplexElementScale( bl_prop, alpha=20, weight=n_branches )
 
-tl ~ dnExp(20)
+tl ~ dnExp(0.1)
 mv[mvi++] = mvScale(tl, weight=5, lambda=1)
 mv[mvi++] = mvScale(tl, weight=10, lambda=0.2)
 
@@ -50,14 +47,13 @@ bl := bl_prop * tl
 #}
 phylogeny := treeAssembly(topology, bl)
 
-alpha ~ dnExp(0.1)
+alpha ~ dnExp(10)
 site_rates := fnDiscretizeGamma(alpha, alpha, 4)
 mv[mvi++] = mvScale(alpha, weight=3)
 
 sdlog = 0.5
 meanlog = ln(1) - 0.5 * sdlog^2
 bf ~ dnDirichlet( [1,1,1,1] )
-#kappa[i] ~ dnLognormal( meanlog, sdlog )
 er ~ dnDirichlet( [1,1,1,1,1,1] )
 mv[mvi++] = mvSimplex( bf, alpha=20, weight=3 )
 mv[mvi++] = mvSimplex(er, alpha=20, weight=4)
@@ -71,16 +67,16 @@ for (i in 1:3) {
         rate_mult[i] ~ dnLognormal(meanlog, sdlog)
         mv[mvi++] = mvScale( rate_mult[i], lambda=1, weight=2 )
     }
-    if (false ){
-        bf[i] ~ dnDirichlet( [1,1,1,1] )
+    if (!true){
+        #bf[i] ~ dnDirichlet( [1,1,1,1] )
         #kappa[i] ~ dnLognormal( meanlog, sdlog )
-        er[i] ~ dnDirichlet( [1,1,1,1,1,1] )
-        mv[mvi++] = mvSimplex( bf[i], alpha=20, weight=3 )
-        mv[mvi++] = mvScale( kappa[i], lambda=1, weight=2 )
-        mv[mvi++] = mvSimplex(er[i], alpha=20, weight=4)
+        #er[i] ~ dnDirichlet( [1,1,1,1,1,1] )
+        #mv[mvi++] = mvSimplex( bf[i], alpha=20, weight=3 )
+        #mv[mvi++] = mvScale(kappa[i], lambda=1, weight=2 )
+        #mv[mvi++] = mvSimplex(er[i], alpha=20, weight=4)
 
-        #Q := fnGTR(er,bf)
-        Q[i] := fnHKY(bf[i], kappa[i])
+        #Q[i] := fnGTR(er[i], bf[i])
+        #Q[i] := fnHKY(bf[i], kappa[i])
     }
 
 
@@ -98,7 +94,7 @@ mn[mni++] = mnFile(phylogeny, file=out_fn + ".tre", printgen=10)
 mdl = model(Q)
 
 ch = mcmc(mv, mn, mdl)
-ch.run(1000)
+ch.run(5000)
 
 tree_trace = readTreeTrace(file=out_fn+".tre", burnin=0.25)
 mcc_tree = mccTree(trace=tree_trace, file=out_fn+".mcc.tre", positiveBranchLengths=true)

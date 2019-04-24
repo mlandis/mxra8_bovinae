@@ -1,5 +1,5 @@
 if (!exists("drop_weev")) {
-    drop_weev = false
+    drop_weev = !false
 }
 if (!exists("one_per")) {
     one_per = false
@@ -7,14 +7,14 @@ if (!exists("one_per")) {
 
 if (!exists("host_scenario")) {
     host_scenario = v("one_host_event",
-                      "four_host_event")[1]
+                      "four_host_event")[2]
 }
 if (!exists("virus_scenario")) {
     virus_scenario = v("crown_SFV",
                        "crown_alpha")[2]
 }
 if (!exists("use_empirical_clock")) {
-    use_empirical_clock = true
+    use_empirical_clock = !true
 }
 if (!exists("bound_max_age")) {
     bound_max_age = false
@@ -23,22 +23,25 @@ if (!exists("under_prior")) {
     under_prior = false
 }
 if (!exists("no_calib")) {
-    no_calib = false
+    no_calib = !false
 }
 if (!exists("update_root")) {
-    update_root = true
+    update_root = !true
+}
+if (!exists("keep_third")) {
+    keep_third = !true
 }
 
 
 # IO
-dat_str = "alpha_once"
+dat_str = "alpha_catorce"
 dat_str += "." + floor(runif(1,100000,999999)[1])
 
-fp = "/Users/mlandis/projects/alphavirus_dating/"
-mol_fn = [ "alpha.orf1.nex",
-           "alpha.orf2.nex" ]
-phy_fn = fp + "data/emp/alpha/alpha.init.tre"
-out_fn = fp + "output/emp/" + dat_str
+fp = "/Users/mlandis/projects/mxra8_bovinae/analyses/alphavirus_dating/"
+mol_fn = [ "data/alpha.orf1.nex",
+           "data/alpha.orf2.nex" ]
+phy_fn = fp + "data/alpha.init.tre"
+out_fn = fp + "output/" + dat_str
 out_fn += "." + virus_scenario
 out_fn += "." + host_scenario
 if (bound_max_age) { 
@@ -54,12 +57,15 @@ if (!update_root) {
     out_fn += ".fix_root"
 }
 if (drop_weev) {
-    phy_fn = fp + "data/emp/alpha/alpha.drop_weev.init.tre"
+    phy_fn = fp + "data/alpha.drop_weev.init.tre"
     out_fn += ".drop_weev"
 }
 if (one_per) {
-    phy_fn = fp + "data/emp/alpha/alpha.one_per.init.tre"
+    phy_fn = fp + "data/alpha.one_per.init.tre"
     out_fn += ".one_per"
+}
+if (keep_third) {
+    out_fn += ".keep_third"
 }
 if (under_prior) {
     out_fn += ".under_prior"
@@ -77,7 +83,7 @@ print_gen = 1e1
 # manage codon site partitions
 k = 1
 for (i in 1:mol_fn.size()) {
-    mol_fn[i] = fp + "data/emp/alpha/" + mol_fn[i]
+    mol_fn[i] = fp + mol_fn[i]
     tmp_1 = readDiscreteCharacterData( mol_fn[i] )
     tmp_2 = tmp_1
     tmp_3 = tmp_1
@@ -86,7 +92,9 @@ for (i in 1:mol_fn.size()) {
     tmp_3.setCodonPartition( 3 )
     dat[k++] = tmp_1
     dat[k++] = tmp_2
-    dat[k++] = tmp_3
+    if (keep_third) {
+        dat[k++] = tmp_3
+    }
     #dat[i][1] = tmp_12
     #dat[i][2] = tmp_3
 }
@@ -189,7 +197,7 @@ mn[mni++] = mnFile(phy, printgen=print_gen, file=out_fn + ".tre")
 # MCMC
 mdl = model(phy)
 ch = mcmc(mdl, mv, mn, nruns=1)
-ch.burnin(n_burn, tuningInterval=10, underPrior=under_prior)
+#ch.burnin(n_burn, tuningInterval=10, underPrior=under_prior)
 ch.run(n_gen, underPrior=under_prior)
 
 # MCC tree

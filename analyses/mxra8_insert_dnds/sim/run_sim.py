@@ -7,8 +7,8 @@ import numpy as np
 def write_ctl(tmpl_fn, idx=1):
     # make header str
     s = ''
-    s += 'seqfile = ../data/sim/Mxra8.resample_' + str(idx) + '.fas\n'
-    s += 'outfile = output/Mxra8.resample_' + str(idx) + '.out.txt\n'
+    s += 'seqfile = ../data/sim/ns30/Mxra8.resample_' + str(idx) + '.fas\n'
+    s += 'outfile = output/ns30/Mxra8.resample_' + str(idx) + '.out.txt\n'
     s += 'treefile = ../data/Mxra8.bovinae.no_insert.tre\n'
     # append template footer st
     ifn = open(tmpl_fn, 'r')
@@ -96,15 +96,15 @@ def sim_one(idx=1):
     code_fp = fp + './'
     data_fp = fp + 'data/'
 
-    align_fn = data_fp + 'Mxra8.no_insert.fas'
+    align_fn = data_fp + 'Mxra8.bovinae.no_insert.mask_ambig_codon.fas'
     tree_fn  = data_fp + 'Mxra8.bovinae.no_insert.tre'
-    out_fn   = data_fp + 'sim/Mxra8.resample_' + str(idx) + '.fas'
+    out_fn   = data_fp + 'sim/ns30/Mxra8.resample_' + str(idx) + '.fas'
     ctl_fn   = code_fp + 'sim/codeml.ctl'
     tmpl_fn  = code_fp + 'sim/codeml_template.ctl'
-    rslt_fn  = code_fp + 'sim/output/Mxra8.resample_' + str(idx) + '.out.txt'
+    rslt_fn  = code_fp + 'sim/output/ns30/Mxra8.resample_' + str(idx) + '.out.txt'
     
     # get taxa we want
-    taxa = ['Bos_indicus', 'Bos_taurus', 'Bos_primigenius', 'Bos_mutus', 'Bos_grunniens', 'Bos_javanicus', 'Bison_bison', 'Syncerus_caffer', 'Bubalus_bubalis', 'Tragelaphus_imberbis', 'Tragelaphus_angasii', 'Tragelaphus_eurycerus' ]
+    taxa = ['Bos_indicus', 'Bos_taurus', 'Bos_primigenius', 'Bos_gaurus', 'Bos_grunniens', 'Bos_javanicus', 'Bison_bison', 'Syncerus_caffer', 'Bubalus_bubalis', 'Tragelaphus_imberbis', 'Tragelaphus_angasii', 'Tragelaphus_eurycerus' ]
 
     # bootstrap dimensions
     n_units = 1
@@ -138,12 +138,12 @@ def sim_one(idx=1):
 
 
 vals = []
-for i in range(2):
+for i in range(500):
     vals.append( sim_one(i) )
 
 
 print(vals)
-outf = open('vals.3.txt', 'w')
+outf = open('vals.ns30.txt', 'w')
 [ outf.write(x+'\n') for x in vals ]
 outf.close()
 

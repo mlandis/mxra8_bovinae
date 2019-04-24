@@ -1,5 +1,5 @@
-seqfile = ../data/sim/Mxra8.resample_1.fas
-outfile = output/Mxra8.resample_1.out.txt
+seqfile = ../data/sim/ns30/Mxra8.resample_499.fas
+outfile = output/ns30/Mxra8.resample_499.out.txt
 treefile = ../data/Mxra8.bovinae.no_insert.tre
         noisy = 0      * 0,1,2,3,9: how much rubbish on the screen
       verbose = 1      * 1:detailed output
