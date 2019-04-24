@@ -1,0 +1,46 @@
+Clade,Sample,Abbreviation,Known Mxra8 dependence?,Known recombinant?,Accession,Tip names
+EEEV,Eastern equine encephalitis virus,EEEV-I,None,,EF151502,Eastern_equine_encephalitis_virus_EF151502
+EEEV,Eastern equine encephalitis virus,EEEV-III,None,,DQ241304,Eastern_equine_encephalitis_virus_DQ241304
+EEEV,Madariaga virus,EEEV-IV,,,EF151503,Madariaga_virus_EF151503
+EEEV,Madariaga virus,EEEV-II,,,DQ241303,Madariaga_virus_DQ241303
+Marine,Norwegian salmonid alphavirus,SADV-a,,,AY604236,Norwegian_salmonid_alphavirus_AY604236
+Marine,Sleeping disease virus,SADV-b,,,AJ316246,Sleeping_disease_virus_AJ316246
+Marine,Wenling fish alphavirus,WFV,,,MG600126,Wenling_fish_alphavirus_MG600126
+Marine,Wenling hagfish alphavirus,WHV,,,MG600128,Wenling_hagfish_alphavirus_MG600128
+SFV,Bebaru virus,BEBV,None,,HM147985,Bebaru_virus_HM147985
+SFV,Chikungunya virus,CHIKV,Full,,AF369024,Chikungunya_virus_AF369024
+SFV,Getah virus,GETV,Partial,,AY702913,Getah_virus_AY702913
+SFV,Mayaro virus,MAYV,Full,,NC003417,Mayaro_virus_NC003417
+SFV,Onyong-nyong virus,ONNV,Full,,AF079456,Onyong-nyong_virus_AF079456
+SFV,Ross River virus,RRV,Full,,GQ433358,Ross_River_virus_GQ433358
+SFV,Sagiyama virus,SAGV,,,AB032553,Sagiyama_virus_AB032553
+SFV,Semliki Forest virus,SFV,Partial,,X04129,Semliki_Forest_virus_X04129
+SFV,Una virus,UNAV,None,,HM147992,Una_virus_HM147992
+VEEV,Cabassou virus,CABV,,,AF075259,Cabassou_virus_AF075259
+VEEV,Everglades virus,EVEV,,,AF075251,Everglades_virus_AF075251
+VEEV,Mosso das Pedras virus,MOSSV,,,AF075257,Mosso_das_Pedras_virus_AF075257
+VEEV,Mucambo virus,MUCV,,,AF075253,Mucambo_virus_AF075253
+VEEV,Pixuna virus,PIXV,,,AF075256,Pixuna_virus_AF075256
+VEEV,Rio Negro virus,RNV,,,NC038674,Rio_Negro_virus_NC038674
+VEEV,Tonate virus,TONV,,,AF075254,Tonate_virus_AF075254
+VEEV,Venezuelan equine encephalitis virus,VEEV-IE,None,,AY823299,Venezuelan_equine_encephalitis_virus_AY823299
+VEEV,Venezuelan equine encephalitis virus,VEEV-ID,None,,L00930,Venezuelan_equine_encephalitis_virus_L00930
+VEEV,Venezuelan equine encephalitis virus,VEEV-IC,None,,L04653,Venezuelan_equine_encephalitis_virus_L04653
+VEEV,Venezuelan equine encephalitis virus,VEEV-IAB,None,,AF069903,Venezuelan_equine_encephalitis_virus_AF069903
+VEEV,Venezuelan equine encephalitis virus,VEEV-IIIC,None,,AF075255,Venezuelan_equine_encephalitis_virus_AF075255
+WEEV,Aura virus,AURAV,,,AF126284,Aura_virus_AF126284
+WEEV,Babanki virus,SIN-BABV,,,HM147984,Babanki_virus_HM147984
+WEEV,Buggy Creek virus,BCRV,,Y,HM147986,Buggy_Creek_virus_HM147986
+WEEV,Fort Morgan virus,FMV,,Y,GQ281603,Fort_Morgan_virus_GQ281603
+WEEV,Highlands J virus,HJV-a,,Y,HM147988,Highlands_J_virus_HM147988
+WEEV,Highlands J virus,HJV-b,,Y,GU167952,Highlands_J_virus_GU167952
+WEEV,Ockelbo virus,OCKV,,,M69205,Ockelbo_virus_M69205
+WEEV,Sindbis virus,SINV,None,,AF429428,Sindbis_virus_AF429428
+WEEV,Trocara virus,TROV,,,HM147991,Trocara_virus_HM147991
+WEEV,Western equine encephalitis virus,WEEV-NA,None,Y,AF214040,Western_equine_encephalitis_virus_AF214040
+WEEV,Western equine encephalitis virus,WEEV-SA,None,Y,GQ287646,Western_equine_encephalitis_virus_GQ287646
+WEEV,Whataroa virus,WHAV,,,HM147993,Whataroa_virus_HM147993
+,Barmah Forest virus,BFV,Full,,U73745,Barmah_Forest_virus_U73745
+,Middelburg virus,MIDV,None,,EF536323,Middelburg_virus_EF536323
+,Ndumu virus,NUDV,,,HM147989,Ndumu_virus_HM147989
+,Southern elephant seal virus,SESV,,,HM147990,Southern_elephant_seal_virus_HM147990
