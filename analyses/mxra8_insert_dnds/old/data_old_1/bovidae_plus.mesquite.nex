@@ -1,0 +1,278 @@
+#NEXUS
+[written Mon Apr 15 13:57:56 EDT 2019 by Mesquite  version 3.10 (build 765) at qfwfq/172.26.125.113]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=46;
+	TAXLABELS
+		Bos_gaurus_unit1 Bos_javanicus_unit1 Bos_primagenius_unit1 Bison_bonasus_unit1 Bison_bison_unit1 Bos_grunniens_unit1 Syncerus_caffer_unit1 Bubalus_bubalis_unit1 Tragelaphus_angasii_unit1 Tragelaphus_oryx_unit1 Tragelaphus_imberbis_unit1 Bos_gaurus_unit2 Bos_javanicus_unit2 Bos_primagenius_unit2 Bison_bison_unit2 Bison_bonasus_unit2 Bos_grunniens_unit2 Tragelaphus_angasii_unit2 Tragelaphus_oryx_unit2 Tragelaphus_imberbis_unit2 Bos_gaurus_unit3 Bos_javanicus_unit3 Bos_primagenius_unit3 Bison_bison_unit3 Bison_bonasus_unit3 Bos_grunniens_unit3 Tragelaphus_oryx_unit3 Tragelaphus_angasii_unit3 Tragelaphus_imberbis_unit3 Bos_gaurus_unit4 Bos_javanicus_unit4 Bos_primagenius_unit4 Bison_bison_unit4 Bison_bonasus_unit4 Bos_grunniens_unit4 Syncerus_caffer_unit4 Bubalus_bubalis_unit4 Tragelaphus_oryx_unit4 Tragelaphus_angasii_unit4 Tragelaphus_imberbis_unit4 'Capra_sibirica_unit4' 'Pseudois_nayaur_unit4' 'Ovis_orientalis_unit4' 'Moschus_berezovskii_unit4' 'Muntiacus_muntjak_unit4' 'Cervus_elaphus_unit4' 
+	;
+
+END;
+
+
+BEGIN TREES;
+	Title Imported_trees;
+	ID 016a1786abc81;
+	LINK Taxa = Taxa;
+	TRANSLATE
+[0] 		n0 Bos_gaurus_unit1,
+[1] 		n1 Bos_javanicus_unit1,
+[2] 		n2 Bos_primagenius_unit1,
+[3] 		n3 Bison_bonasus_unit1,
+[4] 		n4 Bison_bison_unit1,
+[5] 		n5 Bos_grunniens_unit1,
+[6] 		n6 Syncerus_caffer_unit1,
+[7] 		n7 Bubalus_bubalis_unit1,
+[8] 		n8 Tragelaphus_angasii_unit1,
+[9] 		n9 Tragelaphus_oryx_unit1,
+[10] 		n10 Tragelaphus_imberbis_unit1,
+[11] 		n11 Bos_gaurus_unit2,
+[12] 		n12 Bos_javanicus_unit2,
+[13] 		n13 Bos_primagenius_unit2,
+[14] 		n14 Bison_bison_unit2,
+[15] 		n15 Bison_bonasus_unit2,
+[16] 		n16 Bos_grunniens_unit2,
+[17] 		n17 Tragelaphus_angasii_unit2,
+[18] 		n18 Tragelaphus_oryx_unit2,
+[19] 		n19 Tragelaphus_imberbis_unit2,
+[20] 		n20 Bos_gaurus_unit3,
+[21] 		n21 Bos_javanicus_unit3,
+[22] 		n22 Bos_primagenius_unit3,
+[23] 		n23 Bison_bison_unit3,
+[24] 		n24 Bison_bonasus_unit3,
+[25] 		n25 Bos_grunniens_unit3,
+[26] 		n26 Tragelaphus_oryx_unit3,
+[27] 		n27 Tragelaphus_angasii_unit3,
+[28] 		n28 Tragelaphus_imberbis_unit3,
+[29] 		n29 Bos_gaurus_unit4,
+[30] 		n30 Bos_javanicus_unit4,
+[31] 		n31 Bos_primagenius_unit4,
+[32] 		n32 Bison_bison_unit4,
+[33] 		n33 Bison_bonasus_unit4,
+[34] 		n34 Bos_grunniens_unit4,
+[35] 		n35 Syncerus_caffer_unit4,
+[36] 		n36 Bubalus_bubalis_unit4,
+[37] 		n37 Tragelaphus_oryx_unit4,
+[38] 		n38 Tragelaphus_angasii_unit4,
+[39] 		n39 Tragelaphus_imberbis_unit4,
+[40] 		n40 'Capra_sibirica_unit4',
+[41] 		n41 'Pseudois_nayaur_unit4',
+[42] 		n42 'Ovis_orientalis_unit4',
+[43] 		n43 'Moschus_berezovskii_unit4',
+[44] 		n44 'Muntiacus_muntjak_unit4',
+[45] 		n45 'Cervus_elaphus_unit4';
+	TREE L5 = ((((((((((n0[%color = 6 ],n1[%color = 6 ])[%color = 6 ],n2[%color = 6 ])[%color = 6 ],((n3[%color = 6 ],n4[%color = 6 ])[%color = 6 ],n5[%color = 6 ])[%color = 6 ])[%color = 6 ],(n6[%color = 6 ],n7[%color = 6 ])[%color = 6 ])[%color = 6 ],((n8[%color = 6 ],n9[%color = 6 ])[%color = 6 ],n10[%color = 6 ])[%color = 6 ])[%color = 6 ],((((n11[%color = 12 ],n12[%color = 12 ])[%color = 12 ],n13[%color = 12 ])[%color = 12 ],((n14[%color = 12 ],n15[%color = 12 ])[%color = 12 ],n16[%color = 12 ])[%color = 12 ])[%color = 12 ],((n17[%color = 12 ],n18[%color = 12 ])[%color = 12 ],n19[%color = 12 ])[%color = 12 ])[%color = 12 ],((((n20[%color = 14 ],n21[%color = 14 ])[%color = 14 ],n22[%color = 14 ])[%color = 14 ],((n23[%color = 14 ],n24[%color = 14 ])[%color = 14 ],n25[%color = 14 ])[%color = 14 ])[%color = 14 ],((n26[%color = 14 ],n27[%color = 14 ])[%color = 14 ],n28[%color = 14 ])[%color = 14 ])[%color = 14 ])[%color = 5 ],(((((n29[%color = 5 ],n30[%color = 5 ])[%color = 5 ],n31[%color = 5 ])[%color = 5 ],((n32[%color = 5 ],n33[%color = 5 ])[%color = 5 ],n34[%color = 5 ])[%color = 5 ])[%color = 5 ],(n35[%color = 5 ],n36[%color = 5 ])[%color = 5 ])[%color = 5 ],((n37[%color = 5 ],n38[%color = 5 ])[%color = 5 ],n39[%color = 5 ])[%color = 5 ])[%color = 5 ])[%color = 5 ],((n40[%color = 5 ],n41[%color = 5 ])[%color = 5 ],n42[%color = 5 ])[%color = 5 ])[%color = 5 ],n43[%color = 5 ])[%color = 5 ],(n44[%color = 5 ],n45[%color = 5 ])[%color = 5 ])[%color = 5 ] [% ] [%  setBetweenLong = color ];
+	TREE D5 = (((((((((((n0[%color = 6 ],n1[%color = 6 ])[%color = 6 ],((n3[%color = 6 ],n4[%color = 6 ])[%color = 6 ],n5[%color = 6 ])[%color = 6 ])[%color = 6 ],n2[%color = 6 ])[%color = 6 ],(((n11[%color = 16 ],n12[%color = 16 ])[%color = 16 ],((n14[%color = 16 ],n15[%color = 16 ])[%color = 16 ],n16[%color = 16 ])[%color = 16 ])[%color = 16 ],n13[%color = 16 ])[%color = 16 ],(((n20[%color = 13 ],n21[%color = 13 ])[%color = 13 ],((n23[%color = 13 ],n24[%color = 13 ])[%color = 13 ],n25[%color = 13 ])[%color = 13 ])[%color = 13 ],n22[%color = 13 ])[%color = 13 ])[%color = 6 ],(n6[%color = 6 ],n7[%color = 6 ])[%color = 6 ])[%color = 6 ],((n8[%color = 6 ],n9[%color = 6 ])[%color = 6 ],n10[%color = 6 ])[%color = 6 ])[%color = 6 ],(((n17[%color = 12 ],n18[%color = 12 ])[%color = 12 ],n19[%color = 12 ])[%color = 12 ],((n26[%color = 14 ],n27[%color = 14 ])[%color = 14 ],n28[%color = 14 ])[%color = 14 ])[%color = 12 ])[%color = 5 ],(((((n29[%color = 5 ],n30[%color = 5 ])[%color = 5 ],((n32[%color = 5 ],n33[%color = 5 ])[%color = 5 ],n34[%color = 5 ])[%color = 5 ])[%color = 5 ],n31[%color = 5 ])[%color = 5 ],(n35[%color = 5 ],n36[%color = 5 ])[%color = 5 ])[%color = 5 ],((n37[%color = 5 ],n38[%color = 5 ])[%color = 5 ],n39[%color = 5 ])[%color = 5 ])[%color = 5 ])[%color = 5 ],((n40[%color = 5 ],n41[%color = 5 ])[%color = 5 ],n42[%color = 5 ])[%color = 5 ])[%color = 5 ],n43[%color = 5 ])[%color = 5 ],(n44[%color = 5 ],n45[%color = 5 ])[%color = 5 ])[%color = 5 ] [% ] [%  setBetweenBits = selected setBetweenLong = color ];
+	TREE D10 = ((((((((((n0[%color = 10 ],n1[%color = 10 ])[%color = 10 ],n2[%color = 10 ])[%color = 10 ],((n3[%color = 10 ],n4[%color = 10 ])[%color = 10 ],n5[%color = 10 ])[%color = 10 ])[%color = 10 ],(((n11[%color = 16 ],n12[%color = 16 ])[%color = 16 ],n13[%color = 16 ])[%color = 16 ],((n14[%color = 16 ],n15[%color = 16 ])[%color = 16 ],n16[%color = 16 ])[%color = 16 ])[%color = 16 ],(((n20[%color = 13 ],n21[%color = 13 ])[%color = 13 ],n22[%color = 13 ])[%color = 13 ],((n23[%color = 13 ],n24[%color = 13 ])[%color = 13 ],n25[%color = 13 ])[%color = 13 ])[%color = 13 ])[%color = 10 ],(n6[%color = 10 ],n7[%color = 10 ])[%color = 10 ])[%color = 10 ],(((n8[%color = 6 ],n9[%color = 6 ])[%color = 6 ],n10[%color = 6 ])[%color = 6 ],((n26[%color = 14 ],n27[%color = 14 ])[%color = 14 ],n28[%color = 14 ])[%color = 14 ])[%color = 6 ])[%color = 6 ],(((((n29[%color = 5 ],n30[%color = 5 ])[%color = 5 ],n31[%color = 5 ])[%color = 5 ],((n32[%color = 5 ],n33[%color = 5 ])[%color = 5 ],n34[%color = 5 ])[%color = 5 ])[%color = 5 ],(n35[%color = 5 ],n36[%color = 5 ])[%color = 5 ])[%color = 5 ],((n37[%color = 5 ],n38[%color = 5 ])[%color = 5 ],n39[%color = 5 ])[%color = 5 ])[%color = 5 ])[%color = 5 ],((n40[%color = 5 ],n41[%color = 5 ])[%color = 5 ],n42[%color = 5 ])[%color = 5 ])[%color = 5 ],n43[%color = 5 ])[%color = 5 ],(n44[%color = 5 ],n45[%color = 5 ])[%color = 5 ])[%color = 5 ] [% ] [%  setBetweenLong = color ];
+
+END;
+
+
+BEGIN NOTES;
+
+	SUT   TAXON = 1 NAME = color INTEGER = 0;
+	SUT   TAXON = 2 NAME = color INTEGER = 0;
+	SUT   TAXON = 3 NAME = color INTEGER = 0;
+	SUT   TAXON = 4 NAME = color INTEGER = 0;
+	SUT   TAXON = 5 NAME = color INTEGER = 0;
+	SUT   TAXON = 6 NAME = color INTEGER = 0;
+	SUT   TAXON = 7 NAME = color INTEGER = 0;
+	SUT   TAXON = 8 NAME = color INTEGER = 0;
+	SUT   TAXON = 9 NAME = color INTEGER = 0;
+	SUT   TAXON = 10 NAME = color INTEGER = 0;
+	SUT   TAXON = 11 NAME = color INTEGER = 0;
+	SUT   TAXON = 12 NAME = color INTEGER = 0;
+
+END;
+
+BEGIN LABELS;
+	TAXAGROUPLABEL Unit_1 COLOR = (RGB 1 0.61176471 0.03529412) ;
+	TAXAGROUPLABEL Unit_2 COLOR = (RGB 0.2 0.8 0.0) ;
+	TAXAGROUPLABEL Unit_3 COLOR = (RGB 0.03529412 0.03529412 1) ;
+	TAXAGROUPLABEL Unit_4 COLOR = (RGB 1 0.03529412 0.03529412) ;
+
+
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1555351076074;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 4793845904693330537;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 100;
+			setPopoutState 300;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1072 925;
+			setLocation -1276 229;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			showTaxa #4793845904693330537 #mesquite.lists.TaxonList.TaxonList;
+			tell It;
+				setTaxa #4793845904693330537;
+				getWindow;
+				tell It;
+					newAssistant  #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 972 853;
+					setLocation -1276 229;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.ColorTaxon.ColorTaxon;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord;
+		tell It;
+			makeTreeWindow #4793845904693330537  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTreeBlock 1;
+					setTreeBlockID 016a1786abc81;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 1243.1555349322007.2055879000543871838;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 972 853;
+					setLocation -1276 229;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.trees.ColorBranches.ColorToolExtra.ColorBranches;
+					endTell;
+					setActive;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.SquareLineTree.SquareLineTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							branchLengthsToggle off;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter on;
+							toggleEven on;
+							setFixedTaxonDistance 0;
+						endTell;
+						setEdgeWidth 4;
+						showEdgeLines on;
+						orientRight;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						toggleColorPartition off;
+						toggleColorAssigned on;
+						toggleShadePartition off;
+						toggleShowFootnotes on;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					setDrawingSizeMode 0;
+					toggleLegendFloat on;
+					scale 0;
+					toggleTextOnTree off;
+					togglePrintName on;
+					showWindow;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Orange;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					toggleShow consensusFrequency;
+					setDigits 4;
+					writeAsPercentage off;
+					toggleCentred off;
+					toggleHorizontal on;
+					toggleWhiteEdges on;
+					toggleShowOnTerminals on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings;
+				tell It;
+					setOn on;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+					toggleShowOnTerminals on;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+

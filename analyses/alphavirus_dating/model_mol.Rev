@@ -5,13 +5,13 @@ if (use_empirical_clock) {
     emp_clock_mean <- ln(0.001) - 0.5 * emp_clock_sd^2
     base_clock ~ dnLognormal( emp_clock_mean, emp_clock_sd )
 } else {
-    base_clock ~ dnLoguniform( min=1e-5, max=1e2 )
+#    base_clock ~ dnLoguniform( min=1e-5, max=1e2 )
 }
-base_clock.setValue(0.1)
+#base_clock.setValue(0.1)
 
 #ucln_sd ~ dnExp(1)
 #ucln_sd.setValue(0.1)
-ucln_sd <- 1.0
+ucln_sd <- 0.5
 ucln_mean <- 0.0 - 0.5*ucln_sd^2
 
 for (i in 1:n_branches) {
@@ -27,12 +27,17 @@ meanlog <- 0.0 - 0.5*sdlog*sdlog
 for (k in 1:n_part) {
 #    for (j in 1:2) {
         # partition rate variation, lognormal
-    if (k == 1) {
-        part_rate[k] <- abs(1)
-    } else {
-        part_rate[k] ~ dnLognormal( meanlog, sdlog )
+    if (false) {
+        if (k == 1) {
+            part_rate[k] <- abs(1)
+        } else {
+            part_rate[k] ~ dnLognormal( meanlog, sdlog )
+        }
+        part_branch_rate[k] := base_clock * part_rate[k] * branch_rate
     }
-    part_branch_rate[k] := base_clock * part_rate[k] * branch_rate
+    base_clock[k] ~ dnLoguniform( min=1e-5, max=1e2 )
+    base_clock[k].setValue(0.1)
+    part_branch_rate[k] := base_clock[k] * branch_rate
 
     # rate matrix, HKY
     bf[k] ~ dnDirichlet( [1,1,1,1] )

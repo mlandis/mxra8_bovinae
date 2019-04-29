@@ -34,7 +34,7 @@ if (!exists("keep_third")) {
 
 
 # IO
-dat_str = "alpha_catorce"
+dat_str = "alpha_viente"
 dat_str += "." + floor(runif(1,100000,999999)[1])
 
 fp = "/Users/mlandis/projects/mxra8_bovinae/analyses/alphavirus_dating/"
@@ -133,22 +133,24 @@ if (update_root) {
     mv[mvi++] = mvScale(root_age, weight=20)
 }
 
-mv[mvi++] = mvNNI(phy, weight=n_branches/2)
-mv[mvi++] = mvFNPR(phy, weight=n_branches/8)
-mv[mvi++] = mvNodeTimeSlideUniform(phy, weight=n_branches*1.5)
+mv[mvi++] = mvNNI(phy, weight=n_branches)
+mv[mvi++] = mvFNPR(phy, weight=n_branches/4)
+mv[mvi++] = mvNodeTimeSlideUniform(phy, weight=n_branches*2)
 
-mv[mvi++] = mvScale(base_clock, lambda=0.2, weight=8)
-mv[mvi++] = mvScale(base_clock, lambda=1.0, weight=2)
+for (k in 1:n_part) {
+    mv[mvi++] = mvScale(base_clock[k], lambda=0.3, weight=8)
+    mv[mvi++] = mvScale(base_clock[k], lambda=1.0, weight=2)
+}
 #mv[mvi++] = mvScale(ucln_sd, lambda=0.2, weight=8)
 #mv[mvi++] = mvScale(ucln_sd, lambda=1.0, weight=2)
 for (i in 1:n_branches) {
     #mv[mvi++] = mvMixtureAllocation(branch_rate[i], delta=step_size)
-    mv[mvi++] = mvScale( branch_rate[i], lambda=0.3, weight=0.75 )
-    mv[mvi++] = mvScale( branch_rate[i], lambda=1.0, weight=0.25 )
+    mv[mvi++] = mvScale( branch_rate[i], lambda=0.3, weight=1.0 )
+    mv[mvi++] = mvScale( branch_rate[i], lambda=1.0, weight=0.5 )
 }
 #mv[mvi++] = mvRateAgeBetaShift(phy, branch_rate, weight=n_branches)
 if (true) {
-    mv1 = mvUpDownScale(lambda=0.2, weight=20)
+    mv1 = mvUpDownScale(lambda=0.3, weight=20)
     mv1.addVariable(base_clock, up=true)
     mv1.addVariable(branch_rate, up=false)
     mv[mvi++] = mv1
@@ -179,13 +181,13 @@ if (true) {
 
 for (k in 1:n_part) {
     if (k != 1) {
-        mv[mvi++] = mvScale(part_rate[k], lambda=0.2, weight=2)
-        mv[mvi++] = mvScale(part_rate[k], lambda=1.0, weight=1)
+        #mv[mvi++] = mvScale(part_rate[k], lambda=0.2, weight=2)
+        #mv[mvi++] = mvScale(part_rate[k], lambda=1.0, weight=1)
     }
-    mv[mvi++] = mvBetaSimplex(bf[k], alpha=10, weight=2)
-    mv[mvi++] = mvDirichletSimplex(bf[k], alpha=10, weight=1)
-    mv[mvi++] = mvScale(kappa[k], weight=2)
-    mv[mvi++] = mvScale(alpha[k], weight=2)
+    mv[mvi++] = mvBetaSimplex(bf[k], alpha=10, weight=4)
+    mv[mvi++] = mvDirichletSimplex(bf[k], alpha=20, weight=3)
+    mv[mvi++] = mvScale(kappa[k], weight=5)
+    mv[mvi++] = mvScale(alpha[k], weight=5)
 }
 
 # monitors

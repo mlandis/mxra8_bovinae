@@ -1,0 +1,24 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=13;
+	Taxlabels
+		Bison_bison
+		Bos_gaurus
+		Bos_grunniens
+		Bos_indicus
+		Bos_javanicus
+		Bos_primigenius
+		Bos_taurus
+		Boselaphus_tragocamelus
+		Bubalus_bubalis
+		Syncerus_caffer
+		Tragelaphus_angasii
+		Tragelaphus_eurycerus
+		Tragelaphus_imberbis
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&R](((((((Bison_bison[&index=7,age_95%_HPD={0,0.0107}]:0.001057,Bos_javanicus[&index=2,age_95%_HPD={0,0.010614}]:0.001149)[&index=14,posterior=0.997340,age_95%_HPD={0.000502,0.011922}]:0.001765,Bos_gaurus[&index=5,age_95%_HPD={0,0.011829}]:0.001745)[&index=15,posterior=0.893617,age_95%_HPD={0.001714,0.013023}]:0.000591,Bos_indicus[&index=13,age_95%_HPD={0.001856,0.014112}]:0.000285)[&index=16,posterior=0.207447,age_95%_HPD={0.002276,0.014163}]:0.000821,Bos_grunniens[&index=9,age_95%_HPD={0,0.012946}]:0.002129)[&index=17,posterior=0.204787,age_95%_HPD={0.002741,0.016403}]:0.000387,(Bos_primigenius[&index=12,age_95%_HPD={0,0.011487}]:0.002328,Bos_taurus[&index=11,age_95%_HPD={0.001329,0.013751}]:0.000496)[&index=18,posterior=0.914894,age_95%_HPD={0.001158,0.013018}]:0.001649)[&index=19,posterior=1.000000,age_95%_HPD={0.003624,0.015556}]:0.005505,(Bubalus_bubalis[&index=6,age_95%_HPD={0.002026,0.018522}]:0.003263,Syncerus_caffer[&index=8,age_95%_HPD={0,0.015203}]:0.004846)[&index=20,posterior=0.797872,age_95%_HPD={0.004769,0.020536}]:0.001650)[&index=21,posterior=1.000000,age_95%_HPD={0.007324,0.022356}]:0.004132,((Tragelaphus_angasii[&index=3,age_95%_HPD={0,0.012319}]:0.004123,Tragelaphus_imberbis[&index=10,age_95%_HPD={0,0.010842}]:0.005703)[&index=22,posterior=0.561170,age_95%_HPD={0.004499,0.015634}]:0.002329,Tragelaphus_eurycerus[&index=4,age_95%_HPD={0,0.010502}]:0.008272)[&index=23,posterior=0.997340,age_95%_HPD={0.006124,0.019664}]:0.006052,Boselaphus_tragocamelus[&index=1,age_95%_HPD={0,0.017528}]:0.008410)[&index=24,posterior=1.000000,age_95%_HPD={0.010006,0.026385}]:0.000000;
+End;

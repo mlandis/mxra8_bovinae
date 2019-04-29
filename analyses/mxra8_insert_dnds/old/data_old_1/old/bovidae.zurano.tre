@@ -1,0 +1,318 @@
+#NEXUS
+[written Mon Apr 08 10:08:02 EDT 2019 by Mesquite  version 3.10 (build 765) at qfwfq/172.26.124.52]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=22;
+	TAXLABELS
+		Bison_bison Bison_bonasus Bos_gaurus Bos_javanicus Bos_mutus Bos_primigenius Boselaphus_tragocamelus Bubalus_bubalis Capra_sibirica Ovis_orientalis Pseudois_nayaur Syncerus_caffer Tragelaphus_angasii Tragelaphus_eurycerus Tragelaphus_imberbis Tragelaphus_oryx Cervus_elaphus Muntiacus_muntjak Moschus_berezovskii Bos_indicus Bos_taurus Bos_grunniens 
+	;
+
+END;
+
+
+BEGIN TREES;
+	Title 'Trees from "bovidae.zurano.tre"';
+	ID 0169fd330a491;
+	LINK Taxa = Taxa;
+	TRANSLATE
+[0] 		n0 Bison_bison,
+[1] 		n1 Bison_bonasus,
+[2] 		n2 Bos_gaurus,
+[3] 		n3 Bos_javanicus,
+[4] 		n4 Bos_mutus,
+[5] 		n5 Bos_primigenius,
+[6] 		n6 Boselaphus_tragocamelus,
+[7] 		n7 Bubalus_bubalis,
+[8] 		n8 Capra_sibirica,
+[9] 		n9 Ovis_orientalis,
+[10] 		n10 Pseudois_nayaur,
+[11] 		n11 Syncerus_caffer,
+[12] 		n12 Tragelaphus_angasii,
+[13] 		n13 Tragelaphus_eurycerus,
+[14] 		n14 Tragelaphus_imberbis,
+[15] 		n15 Tragelaphus_oryx,
+[16] 		n16 Cervus_elaphus,
+[17] 		n17 Muntiacus_muntjak,
+[18] 		n18 Moschus_berezovskii,
+[19] 		n19 Bos_indicus,
+[20] 		n20 Bos_taurus,
+[21] 		n21 Bos_grunniens;
+	TREE tree_1 = ((n17:10.876469,n16:10.876469):11.103851,(n18:21.262184,((n9:8.363659,(n10:6.352454,n8:6.352454):2.011205):10.712184,(n6:15.608855,((n14:7.293402,(n12:6.488103,(n13:4.787809,n15:4.787809):1.700294):0.805299):7.659799,((n11:6.648908,n7:6.648908):4.074699,((((n1:3.022534,n0:0.70395):0.70395,(n4:0.70395,n21[%selected = on ]):0.70395):2.267795,(n2:1.866564,n3:1.866564):1.809131):0.503231,(n19,(n5:1.511267,n20):0.7556335):1.9120255):6.544681):4.229594):0.655655):3.466988):2.186341):0.718135)[% ] [% ] [%  setBetweenBits = selected ];
+
+END;
+
+
+begin figtree;
+	set appearance.backgroundColorAttribute = " Default ";
+	set appearance.backgroundColour = #ffffff;
+	set appearance.branchColorAttribute = " User selection ";
+	set appearance.branchColorGradient = false;
+	set appearance.branchLineWidth = 1.0;
+	set appearance.branchMinLineWidth = 0.0;
+	set appearance.branchWidthAttribute = " Fixed ";
+	set appearance.foregroundColour = #000000;
+	set appearance.hilightingGradient = false;
+	set appearance.selectionColour = #2d3680;
+	set branchLabels.colorAttribute = " User selection ";
+	set branchLabels.displayAttribute = " Branch times ";
+	set branchLabels.fontName = " Abadi MT Condensed Extra Bold ";
+	set branchLabels.fontSize = 8;
+	set branchLabels.fontStyle = 0;
+	set branchLabels.isShown = false;
+	set branchLabels.significantDigits = 4;
+	set layout.expansion = 0;
+	set layout.layoutType = " RECTILINEAR ";
+	set layout.zoom = 0;
+	set legend.attribute = " height ";
+	set legend.fontSize = 10.0;
+	set legend.isShown = false;
+	set legend.significantDigits = 4;
+	set nodeBars.barWidth = 4.0;
+	set nodeBars.displayAttribute = " height_0.95_HPD ";
+	set nodeBars.isShown = false;
+	set nodeLabels.colorAttribute = " User selection ";
+	set nodeLabels.displayAttribute = " Node ages ";
+	set nodeLabels.fontName = " Abadi MT Condensed Extra Bold ";
+	set nodeLabels.fontSize = 12;
+	set nodeLabels.fontStyle = 0;
+	set nodeLabels.isShown = false;
+	set nodeLabels.significantDigits = 4;
+	set nodeShapeExternal.colourAttribute = " User selection ";
+	set nodeShapeExternal.isShown = false;
+	set nodeShapeExternal.minSize = 10.0;
+	set nodeShapeExternal.scaleType = Width;
+	set nodeShapeExternal.shapeType = Circle;
+	set nodeShapeExternal.size = 4.0;
+	set nodeShapeExternal.sizeAttribute = " Fixed ";
+	set nodeShapeInternal.colourAttribute = " User selection ";
+	set nodeShapeInternal.isShown = false;
+	set nodeShapeInternal.minSize = 10.0;
+	set nodeShapeInternal.scaleType = Width;
+	set nodeShapeInternal.shapeType = Circle;
+	set nodeShapeInternal.size = 4.0;
+	set nodeShapeInternal.sizeAttribute = " Fixed ";
+	set polarLayout.alignTipLabels = false;
+	set polarLayout.angularRange = 0;
+	set polarLayout.rootAngle = 0;
+	set polarLayout.rootLength = 100;
+	set polarLayout.showRoot = true;
+	set radialLayout.spread = 0.0;
+	set rectilinearLayout.alignTipLabels = false;
+	set rectilinearLayout.curvature = 0;
+	set rectilinearLayout.rootLength = 100;
+	set scale.offsetAge = 0.0;
+	set scale.rootAge = 1.0;
+	set scale.scaleFactor = 1.0;
+	set scale.scaleRoot = false;
+	set scaleAxis.automaticScale = true;
+	set scaleAxis.fontSize = 8.0;
+	set scaleAxis.isShown = false;
+	set scaleAxis.lineWidth = 1.0;
+	set scaleAxis.majorTicks = 1.0;
+	set scaleAxis.minorTicks = 0.5;
+	set scaleAxis.origin = 0.0;
+	set scaleAxis.reverseAxis = false;
+	set scaleAxis.showGrid = true;
+	set scaleBar.automaticScale = true;
+	set scaleBar.fontSize = 12.0;
+	set scaleBar.isShown = true;
+	set scaleBar.lineWidth = 1.0;
+	set scaleBar.scaleRange = 0.0;
+	set tipLabels.colorAttribute = " User selection ";
+	set tipLabels.displayAttribute = " Names ";
+	set tipLabels.fontName = " Abadi MT Condensed Extra Bold ";
+	set tipLabels.fontSize = 12;
+	set tipLabels.fontStyle = 0;
+	set tipLabels.isShown = true;
+	set tipLabels.significantDigits = 4;
+	set trees.order = true;
+	set trees.orderType = " decreasing ";
+	set trees.rooting = false;
+	set trees.rootingType = " User Selection ";
+	set trees.transform = false;
+	set trees.transformType = " cladogram ";
+
+END;
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1554732482455;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 3948704411799452742;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 100;
+			setPopoutState 300;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1364 748;
+			setLocation 8 23;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			showTaxa #3948704411799452742 #mesquite.lists.TaxonList.TaxonList;
+			tell It;
+				setTaxa #3948704411799452742;
+				getWindow;
+				tell It;
+					newAssistant  #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1264 676;
+					setLocation 8 23;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.lists.TaxonList.TaxonListWindow.ibeam;
+					endTell;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.ColorTaxon.ColorTaxon;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord;
+		tell It;
+			makeTreeWindow #3948704411799452742  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTreeBlock 1;
+					setTreeBlockID 0169fd330a491;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 929.1554732220832.8748362660172618475;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1264 676;
+					setLocation 8 23;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.interchange;
+					endTell;
+					setActive;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.SquareLineTree.SquareLineTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							branchLengthsToggle off;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter on;
+							toggleEven on;
+							setFixedTaxonDistance 0;
+						endTell;
+						setEdgeWidth 4;
+						showEdgeLines on;
+						orientUp;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						toggleColorPartition off;
+						toggleColorAssigned on;
+						toggleShadePartition off;
+						toggleShowFootnotes on;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					setTree '((18:10.876469,17:10.876469):13.422434999999997,(19:23.580768999999997,((10:8.363659,(11:6.352454,9:6.352454):2.0112050000000004):13.030768999999998,(7:17.927439999999997,((15:7.293402,(13:6.488103000000001,(14:4.787809,16:4.787809):1.7002940000000004):0.8052989999999998):9.978382999999997,((12:6.648908,8:6.648908):6.393282999999999,((((2:3.022534,1:3.022534):0.7039499999999999,(5:1,22:1<selected = on >):2.7264839999999997):2.267795,(3:1.8665639999999994,4:1.8665639999999994):4.127715):0.5032310000000004,(20:2.2669005,(6:1.511267,21:1.511267):0.7556335000000003):4.2306095):6.544680999999999):4.229593999999999):0.6556549999999994):3.4669880000000006):2.1863409999999988):0.7181350000000002):1;';
+					setDrawingSizeMode 0;
+					toggleLegendFloat on;
+					scale 0;
+					toggleTextOnTree off;
+					togglePrintName on;
+					showWindow;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					setDigits 4;
+					writeAsPercentage off;
+					toggleCentred off;
+					toggleHorizontal on;
+					toggleWhiteEdges on;
+					toggleShowOnTerminals on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings;
+				tell It;
+					setOn on;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+					toggleShowOnTerminals on;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+

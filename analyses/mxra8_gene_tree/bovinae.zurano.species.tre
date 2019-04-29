@@ -1,0 +1,108 @@
+#NEXUS
+[written Sun Apr 28 22:56:42 EDT 2019 by Mesquite  version 3.10 (build 765) at qfwfq/192.168.1.5]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=22;
+	TAXLABELS
+		Bison_bison Bison_bonasus Bos_gaurus Bos_grunniens Bos_indicus Bos_javanicus Bos_mutus Bos_primigenius Bos_taurus Boselaphus_tragocamelus Bubalus_bubalis Capra_sibirica Cervus_elaphus Moschus_berezovskii Muntiacus_muntjak Ovis_orientalis Pseudois_nayaur Syncerus_caffer Tragelaphus_angasii Tragelaphus_eurycerus Tragelaphus_imberbis Tragelaphus_oryx 
+	;
+
+END;
+
+
+BEGIN TREES;
+	Title 'Trees from "bovinae.zurano.species.tre"';
+	ID 016a4f50751511;
+	LINK Taxa = Taxa;
+	TRANSLATE
+[0] 		1 Bison_bison,
+[1] 		2 Bison_bonasus,
+[2] 		3 Bos_gaurus,
+[3] 		4 Bos_grunniens,
+[4] 		5 Bos_indicus,
+[5] 		6 Bos_javanicus,
+[6] 		7 Bos_mutus,
+[7] 		8 Bos_primigenius,
+[8] 		9 Bos_taurus,
+[9] 		10 Boselaphus_tragocamelus,
+[10] 		11 Bubalus_bubalis,
+[11] 		12 Capra_sibirica,
+[12] 		13 Cervus_elaphus,
+[13] 		14 Moschus_berezovskii,
+[14] 		15 Muntiacus_muntjak,
+[15] 		16 Ovis_orientalis,
+[16] 		17 Pseudois_nayaur,
+[17] 		18 Syncerus_caffer,
+[18] 		19 Tragelaphus_angasii,
+[19] 		20 Tragelaphus_eurycerus,
+[20] 		21 Tragelaphus_imberbis,
+[21] 		22 Tragelaphus_oryx;
+	TREE tree_1 = ((15:10.876469,13:10.876469):13.422435,(14:23.580769,((16:8.363659,(17:6.352454,12:6.352454):2.011205):13.030769,(10:17.92744,((21:7.293402,(19:6.488103,(20:4.787809,22:4.787809):1.700294):0.805299):9.978383,((18:6.648908,11:6.648908):6.393283,((((2:3.022534,1:3.022534):0.70395,(7:1,4:1):2.726484):2.267795,(3:1.866564,6:1.866564):4.127715):0.503231,(5:2.266901,(8:1.511267,9:1.511267):0.755634):4.23061):6.544681):4.229594):0.655655):3.466988):2.186341):0.718135);
+
+END;
+
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1556506602919;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 7813497613460119119;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 100;
+			setPopoutState 300;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1192 838;
+			setLocation 67 48;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			showTaxa #7813497613460119119 #mesquite.lists.TaxonList.TaxonList;
+			tell It;
+				setTaxa #7813497613460119119;
+				getWindow;
+				tell It;
+					newAssistant  #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1092 766;
+					setLocation 67 48;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+					setActive;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.ColorTaxon.ColorTaxon;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+
