@@ -199,7 +199,6 @@ mn[mni++] = mnScreen(root_age, printgen=print_gen)
 mn[mni++] = mnModel(printgen=print_gen, file=out_fn + ".model.log")
 mn[mni++] = mnFile(phy, printgen=print_gen, file=out_fn + ".tre")
 
-xx
 # MCMC
 mdl = model(phy)
 ch = mcmc(mdl, mv, mn, nruns=1)
