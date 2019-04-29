@@ -4,7 +4,6 @@ if (!exists("drop_weev")) {
 if (!exists("one_per")) {
     one_per = false
 }
-
 if (!exists("host_scenario")) {
     host_scenario = v("one_host_event",
                       "four_host_event")[2]
@@ -34,7 +33,7 @@ if (!exists("keep_third")) {
 
 
 # IO
-dat_str = "alpha_viente"
+dat_str = "alpha_21"
 dat_str += "." + floor(runif(1,100000,999999)[1])
 
 fp = "/Users/mlandis/projects/mxra8_bovinae/analyses/alphavirus_dating/"
@@ -141,8 +140,8 @@ mv[mvi++] = mvNodeTimeSlideUniform(phy, weight=n_branches*2)
 #mv[mvi++] = mvScale(base_clock, lambda=1.0, weight=10)
 
 for (k in 1:n_part) {
-    mv[mvi++] = mvScale(base_clock[k], lambda=0.3, weight=8)
-    mv[mvi++] = mvScale(base_clock[k], lambda=1.0, weight=2)
+    mv[mvi++] = mvScale(base_clock[k], lambda=0.5, weight=15)
+    mv[mvi++] = mvScale(base_clock[k], lambda=1.0, weight=5)
 }
 #mv[mvi++] = mvScale(ucln_sd, lambda=0.2, weight=8)
 #mv[mvi++] = mvScale(ucln_sd, lambda=1.0, weight=2)
@@ -151,6 +150,7 @@ for (i in 1:n_branches) {
     mv[mvi++] = mvScale( branch_rate[i], lambda=0.3, weight=2 )
     mv[mvi++] = mvScale( branch_rate[i], lambda=1.0, weight=1 )
 }
+
 #mv[mvi++] = mvRateAgeBetaShift(phy, branch_rate, weight=n_branches)
 if (true) {
     mv1 = mvUpDownScale(lambda=0.3, weight=20)
@@ -189,11 +189,6 @@ for (k in 1:n_part) {
     }
     mv[mvi++] = mvBetaSimplex(bf[k], alpha=20, weight=5)
     mv[mvi++] = mvDirichletSimplex(bf[k], alpha=20, weight=5)
-        #mv[mvi++] = mvScale(part_rate[k], lambda=0.2, weight=2)
-        #mv[mvi++] = mvScale(part_rate[k], lambda=1.0, weight=1)
-    }
-    mv[mvi++] = mvBetaSimplex(bf[k], alpha=10, weight=4)
-    mv[mvi++] = mvDirichletSimplex(bf[k], alpha=20, weight=3)
     mv[mvi++] = mvScale(kappa[k], weight=5)
     mv[mvi++] = mvScale(alpha[k], weight=5)
 }
@@ -204,6 +199,7 @@ mn[mni++] = mnScreen(root_age, printgen=print_gen)
 mn[mni++] = mnModel(printgen=print_gen, file=out_fn + ".model.log")
 mn[mni++] = mnFile(phy, printgen=print_gen, file=out_fn + ".tre")
 
+xx
 # MCMC
 mdl = model(phy)
 ch = mcmc(mdl, mv, mn, nruns=1)

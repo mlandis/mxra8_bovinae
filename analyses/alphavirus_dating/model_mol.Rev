@@ -20,7 +20,8 @@ ucln_mean <- 0.0 - 0.5*ucln_sd^2
 
 for (i in 1:n_branches) {
     branch_rate[i] ~ dnLognormal( ucln_mean, ucln_sd )
-    branch_rate[i].setValue( base_clock )
+    branch_rate[i].setValue( 1.0 )
+    #branch_rate[i].setValue( base_clock )
 }
 
 # concatenated molecular model
