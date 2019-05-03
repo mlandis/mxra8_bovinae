@@ -11,7 +11,7 @@ base_clock.setValue(0.1)
 
 #ucln_sd ~ dnExp(1)
 #ucln_sd.setValue(0.1)
-ucln_sd <- 1.0
+ucln_sd <- 0.5
 ucln_mean <- 0.0 - 0.5*ucln_sd^2
 
 for (i in 1:n_branches) {
@@ -20,7 +20,7 @@ for (i in 1:n_branches) {
 }
 
 # concatenated molecular model
-sdlog <- 1.0
+sdlog <- 0.5
 meanlog <- 0.0 - 0.5*sdlog*sdlog
 
 #k= 1
@@ -36,7 +36,7 @@ for (k in 1:n_part) {
     Q[k] := fnHKY(bf[k], kappa[k])
 
     # site rate variation, +Gamma4
-    alpha[k] ~ dnExp(0.1)
+    alpha[k] ~ dnExp(1)
     site_rate[k] := fnDiscretizeGamma( alpha[k], alpha[k], numCats=4 )
 
     # phylogenetic substitution process
