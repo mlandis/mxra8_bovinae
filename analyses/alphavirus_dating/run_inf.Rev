@@ -39,7 +39,7 @@ if (!exists("num_chains")) {
 
 
 # IO
-dat_str = "alpha_23"
+dat_str = "alpha_24"
 dat_str += "." + floor(runif(1,100000,999999)[1])
 
 fp = "/Users/mlandis/projects/mxra8_bovinae/analyses/alphavirus_dating/"
@@ -130,50 +130,55 @@ for (k in 1:n_part) {
 
 # moves
 mvi = 1
-mv[mvi++] = mvScale(birth, weight=20)
-mv[mvi++] = mvScale(death, weight=20)
-mv[mvi++] = mvScale(rho, weight=20)
+mv[mvi++] = mvScale(birth, weight=10)
+mv[mvi++] = mvScale(death, weight=10)
+mv[mvi++] = mvScale(rho, weight=10)
 if (update_root) {
-    mv[mvi++] = mvScale(root_age, weight=20)
+    mv[mvi++] = mvScale(root_age, weight=10)
 }
 
 mv[mvi++] = mvNNI(phy, weight=n_branches/1)
 mv[mvi++] = mvFNPR(phy, weight=n_branches/4)
-mv[mvi++] = mvNodeTimeSlideUniform(phy, weight=n_branches*2)
+#mv[mvi++] = mvNodeTimeSlideUniform(phy, weight=n_branches*2)
+mv[mvi++] = mvNodeRateTimeSlideBeta( phy, branch_rate, delta=10, weight=n_branches/4 )
+mv[mvi++] = mvNodeRateTimeSlideUniform( phy, branch_rate, weight=n_branches/4 )
+mv[mvi++] = mvNodeTimeSlideBeta( phy, delta=10, weight=n_branches/4 )
+mv[mvi++] = mvSubtreeScale(phy, weight=n_branches/4)
+
 
 #mv[mvi++] = mvScale(base_clock, lambda=0.2, weight=20)
 #mv[mvi++] = mvScale(base_clock, lambda=1.0, weight=10)
 
 for (k in 1:n_part) {
-    mv[mvi++] = mvScale(base_clock[k], lambda=0.5, weight=15)
-    mv[mvi++] = mvScale(base_clock[k], lambda=1.0, weight=5)
+    mv[mvi++] = mvScale(base_clock[k], lambda=0.5, weight=15, tuneTarget=0.3)
+    mv[mvi++] = mvScale(base_clock[k], lambda=1.0, weight=5, tuneTarget=0.03)
 }
 #mv[mvi++] = mvScale(ucln_sd, lambda=0.2, weight=8)
 #mv[mvi++] = mvScale(ucln_sd, lambda=1.0, weight=2)
 for (i in 1:n_branches) {
     #mv[mvi++] = mvMixtureAllocation(branch_rate[i], delta=step_size)
-    mv[mvi++] = mvScale( branch_rate[i], lambda=0.3, weight=2 )
-    mv[mvi++] = mvScale( branch_rate[i], lambda=1.0, weight=1 )
+    mv[mvi++] = mvScale( branch_rate[i], lambda=0.3, weight=2, tune=false )
+    mv[mvi++] = mvScale( branch_rate[i], lambda=1.0, weight=1, tune=false )
 }
 
 #mv[mvi++] = mvRateAgeBetaShift(phy, branch_rate, weight=n_branches)
 if (true) {
 
-    mv[mvi++] = mvVectorScale( branch_rate, lambda=0.3, weight=20 )
-    mv[mvi++] = mvVectorScale( branch_rate, lambda=1.0, weight=5 )
+    mv[mvi++] = mvVectorScale( branch_rate, lambda=0.3, weight=20, tuneTarget=0.3 )
+    mv[mvi++] = mvVectorScale( branch_rate, lambda=1.0, weight=5, tuneTarget=0.03 )
     
-    mv[mvi++] = mvVectorScale( base_clock, lambda=0.3, weight=20 )
-    mv[mvi++] = mvVectorScale( base_clock, lambda=1.0, weight=5 )
+    mv[mvi++] = mvVectorScale( base_clock, lambda=0.3, weight=20, tuneTarget=0.3 )
+    mv[mvi++] = mvVectorScale( base_clock, lambda=1.0, weight=5, tuneTarget=0.03 )
 
-    mv0 = mvUpDownScale(lambda=0.2, weight=25)
+    mv0 = mvUpDownScale(lambda=0.2, weight=25, tuneTarget=0.3)
     mv0.addVariable(base_clock, up=true)
     mv0.addVariable(branch_rate, up=false)
     mv[mvi++] = mv0
-    mv1 = mvUpDownScale(lambda=0.5, weight=15)
+    mv1 = mvUpDownScale(lambda=0.5, weight=15, tuneTarget=0.1)
     mv1.addVariable(base_clock, up=true)
     mv1.addVariable(branch_rate, up=false)
     mv[mvi++] = mv1
-    mv2 = mvUpDownScale(lambda=1.0, weight=5)
+    mv2 = mvUpDownScale(lambda=1.0, weight=5, tuneTarget=0.03)
     mv2.addVariable(base_clock, up=true)
     mv2.addVariable(branch_rate, up=false)
     mv[mvi++] = mv2
@@ -219,11 +224,13 @@ mn[mni++] = mnFile(phy, printgen=print_gen, file=out_fn + ".tre")
 mdl = model(phy)
 if (use_mc3) {
     "use mc3!"
-    ch = mcmcmc(mdl, mv, mn, nchains=num_chains, swapInterval=10, deltaHeat=0.03)
+    ch = mcmcmc(mdl, mv, mn, nchains=num_chains, swapInterval=1, deltaHeat=0.03)
     "made mc3!"
 } else {
     ch = mcmc(mdl, mv, mn, nruns=1)
 }
+n_burn = 1e3
+#ch.burnin(n_burn, underPrior=under_prior, tuningInterval=10)
 ch.run(n_gen, underPrior=under_prior)
 
 # MCC tree
