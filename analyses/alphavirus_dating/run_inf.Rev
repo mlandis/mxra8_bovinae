@@ -30,10 +30,16 @@ if (!exists("update_root")) {
 if (!exists("keep_third")) {
     keep_third = false
 }
+if (!exists("use_mc3")) {
+    use_mc3 = false
+}
+if (!exists("num_chains")) {
+    num_chains = 5
+}
 
 
 # IO
-dat_str = "alpha_21"
+dat_str = "alpha_23"
 dat_str += "." + floor(runif(1,100000,999999)[1])
 
 fp = "/Users/mlandis/projects/mxra8_bovinae/analyses/alphavirus_dating/"
@@ -83,9 +89,9 @@ print_gen = 1e1
 k = 1
 for (i in 1:mol_fn.size()) {
     mol_fn[i] = fp + mol_fn[i]
-    tmp_1 = readDiscreteCharacterData( mol_fn[i] )
-    tmp_2 = tmp_1
-    tmp_3 = tmp_1
+    tmp_1 <- readDiscreteCharacterData( mol_fn[i] )
+    tmp_2 <- tmp_1
+    tmp_3 <- tmp_1
     tmp_1.setCodonPartition( 1 )
     tmp_2.setCodonPartition( 2 )
     tmp_3.setCodonPartition( 3 )
@@ -94,9 +100,8 @@ for (i in 1:mol_fn.size()) {
     if (keep_third) {
         dat[k++] = tmp_3
     }
-    #dat[i][1] = tmp_12
-    #dat[i][2] = tmp_3
 }
+
 phy_init = readTrees(phy_fn)[1]
 n_part = dat.size()
 
@@ -153,11 +158,22 @@ for (i in 1:n_branches) {
 
 #mv[mvi++] = mvRateAgeBetaShift(phy, branch_rate, weight=n_branches)
 if (true) {
-    mv1 = mvUpDownScale(lambda=0.3, weight=20)
+
+    mv[mvi++] = mvVectorScale( branch_rate, lambda=0.3, weight=20 )
+    mv[mvi++] = mvVectorScale( branch_rate, lambda=1.0, weight=5 )
+    
+    mv[mvi++] = mvVectorScale( base_clock, lambda=0.3, weight=20 )
+    mv[mvi++] = mvVectorScale( base_clock, lambda=1.0, weight=5 )
+
+    mv0 = mvUpDownScale(lambda=0.2, weight=25)
+    mv0.addVariable(base_clock, up=true)
+    mv0.addVariable(branch_rate, up=false)
+    mv[mvi++] = mv0
+    mv1 = mvUpDownScale(lambda=0.5, weight=15)
     mv1.addVariable(base_clock, up=true)
     mv1.addVariable(branch_rate, up=false)
     mv[mvi++] = mv1
-    mv2 = mvUpDownScale(lambda=1.0, weight=10)
+    mv2 = mvUpDownScale(lambda=1.0, weight=5)
     mv2.addVariable(base_clock, up=true)
     mv2.addVariable(branch_rate, up=false)
     mv[mvi++] = mv2
@@ -201,8 +217,13 @@ mn[mni++] = mnFile(phy, printgen=print_gen, file=out_fn + ".tre")
 
 # MCMC
 mdl = model(phy)
-ch = mcmc(mdl, mv, mn, nruns=1)
-#ch.burnin(n_burn, tuningInterval=10, underPrior=under_prior)
+if (use_mc3) {
+    "use mc3!"
+    ch = mcmcmc(mdl, mv, mn, nchains=num_chains, swapInterval=10, deltaHeat=0.03)
+    "made mc3!"
+} else {
+    ch = mcmc(mdl, mv, mn, nruns=1)
+}
 ch.run(n_gen, underPrior=under_prior)
 
 # MCC tree
