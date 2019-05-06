@@ -1,5 +1,9 @@
 # Supplementary files for Kim et al. (2019)
 
+Files for:
+
+* Kim et al. (2019) "An evolutionarily ancient sequence insertion in the Mxra8 receptor confers resistance to alphavirus infection"
+
 This repository contains three subdirectories:
 
 * `mxra8_gene_tree` contains the RevBayes scripts and data used to estimate the Mxra8 gene tree topology in Extended Data Figure 12d
