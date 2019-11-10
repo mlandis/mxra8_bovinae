@@ -39,7 +39,7 @@ if (!exists("num_chains")) {
 
 
 # IO
-dat_str = "alpha_24"
+dat_str = "alpha_27"
 dat_str += "." + floor(runif(1,100000,999999)[1])
 
 fp = "/Users/mlandis/projects/mxra8_bovinae/analyses/alphavirus_dating/"

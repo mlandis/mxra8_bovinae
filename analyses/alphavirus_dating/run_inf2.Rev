@@ -39,7 +39,7 @@ if (!exists("num_chains")) {
 
 
 # IO
-dat_str = "alpha_26"
+dat_str = "alpha_29"
 dat_str += "." + floor(runif(1,100000,999999)[1])
 
 fp = "/Users/mlandis/projects/mxra8_bovinae/analyses/alphavirus_dating/"
@@ -166,21 +166,33 @@ if (true) {
     mv[mvi++] = mvVectorScale( branch_rate, lambda=0.3, weight=20, tuneTarget=0.3 )
     mv[mvi++] = mvVectorScale( branch_rate, lambda=1.0, weight=5, tuneTarget=0.03 )
     
-    #mv[mvi++] = mvVectorScale( base_clock, lambda=0.3, weight=20, tuneTarget=0.3 )
-    #mv[mvi++] = mvVectorScale( base_clock, lambda=1.0, weight=5, tuneTarget=0.03 )
+    mv[mvi++] = mvVectorScale( part_rate, lambda=0.3, weight=20, tuneTarget=0.3 )
+    mv[mvi++] = mvVectorScale( part_rate, lambda=1.0, weight=5, tuneTarget=0.03 )
 
-    mv0 = mvUpDownScale(lambda=0.2, weight=25, tuneTarget=0.3)
+    mv0 = mvUpDownScale(lambda=0.3, weight=25, tuneTarget=0.3)
     mv0.addVariable(base_clock, up=true)
     mv0.addVariable(branch_rate, up=false)
     mv[mvi++] = mv0
-    mv1 = mvUpDownScale(lambda=0.5, weight=15, tuneTarget=0.1)
+    mv1 = mvUpDownScale(lambda=1.0, weight=10, tuneTarget=0.1)
     mv1.addVariable(base_clock, up=true)
     mv1.addVariable(branch_rate, up=false)
     mv[mvi++] = mv1
-    mv2 = mvUpDownScale(lambda=1.0, weight=5, tuneTarget=0.03)
+    mv2 = mvUpDownScale(lambda=0.3, weight=25, tuneTarget=0.3)
     mv2.addVariable(base_clock, up=true)
-    mv2.addVariable(branch_rate, up=false)
+    mv2.addVariable(part_rate, up=false)
     mv[mvi++] = mv2
+    mva = mvUpDownScale(lambda=1.0, weight=10, tuneTarget=0.1)
+    mva.addVariable(base_clock, up=true)
+    mva.addVariable(part_rate, up=false)
+    mv[mvi++] = mva
+    mvb = mvUpDownScale(lambda=0.3, weight=25, tuneTarget=0.3)
+    mvb.addVariable(part_rate, up=true)
+    mvb.addVariable(branch_rate, up=false)
+    mv[mvi++] = mvb
+    mvc = mvUpDownScale(lambda=1.0, weight=10, tuneTarget=0.1)
+    mvc.addVariable(part_rate, up=true)
+    mvc.addVariable(branch_rate, up=false)
+    mv[mvi++] = mvc
 
     if (update_root) {
         mv3 = mvUpDownScale(lambda=0.2, weight=20)
@@ -203,8 +215,8 @@ if (true) {
 }
 
 for (k in 1:n_part) {
-    mv[mvi++] = mvScale(part_rate[k], lambda=0.2, weight=3)
-    mv[mvi++] = mvScale(part_rate[k], lambda=1.0, weight=2)
+    mv[mvi++] = mvScale(part_rate[k], lambda=0.3, weight=4)
+    mv[mvi++] = mvScale(part_rate[k], lambda=1.0, weight=3)
     mv[mvi++] = mvBetaSimplex(bf[k], alpha=20, weight=5)
     mv[mvi++] = mvDirichletSimplex(bf[k], alpha=20, weight=5)
     mv[mvi++] = mvScale(kappa[k], weight=5)
